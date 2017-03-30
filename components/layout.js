@@ -2,9 +2,14 @@ import Link from 'next/link'
 import Head from 'next/head'
 import 'glamor/reset'
 import styled from 'styled-components';
+import { injectGlobal } from 'styled-components';
 
 import SocialNav from './../components/social_nav';
 import Footer from './../components/footer'
+
+injectGlobal`
+  body { background: #1d1d1d; }
+`;
 
 const Page = styled.div`
   background: #1d1d1d;
@@ -16,7 +21,7 @@ const Header = styled.header`
   position: relative;
   padding: 0 10px;
   height: 95px;
-  border-bottom: 5px solid #5ceb00;
+  border-bottom: 5px solid #51ed06;
   @media screen and (min-width: 420px) {
     padding: 0 40px;
   }
@@ -33,7 +38,11 @@ const LogoImg = styled.img`
   padding-bottom: 10px;
 `;
 const Content = styled.div`
-  padding: 40px;
+  padding: 10px;
+
+  @media screen and (min-width: 420px) {
+    padding: 40px;
+  }
 `;
 
 export default ({ children, title = 'GEDANKENWERK. Web & Videoproduktion' }) => (
@@ -55,6 +64,7 @@ export default ({ children, title = 'GEDANKENWERK. Web & Videoproduktion' }) => 
     <Footer />
 
     <link href="https://fonts.googleapis.com/css?family=Archivo+Narrow" rel="stylesheet" />
+    <script src="https://npmcdn.com/masonry-layout@4.1/dist/masonry.pkgd.min.js"></script>
 
   </Page>
 )
