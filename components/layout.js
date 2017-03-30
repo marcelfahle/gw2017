@@ -4,10 +4,12 @@ import 'glamor/reset'
 import styled from 'styled-components';
 
 import SocialNav from './../components/social_nav';
+import Footer from './../components/footer'
 
 const Page = styled.div`
   background: #1d1d1d;
   color: #b2b2b2;
+  font-family: 'Archivo Narrow', sans-serif;
 `;
 const Header = styled.header`
   background: #141414;
@@ -50,8 +52,9 @@ export default ({ children, title = 'GEDANKENWERK. Web & Videoproduktion' }) => 
       { children }
     </Content>
 
-    <footer>
-      I`m here to stay
-    </footer>
+    <Footer />
+
+    <link href="https://fonts.googleapis.com/css?family=Archivo+Narrow" rel="stylesheet" />
+
   </Page>
 )
