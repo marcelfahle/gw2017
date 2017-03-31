@@ -5,12 +5,23 @@ import SocialFooterNav from './../components/social_footer_nav';
 const Footer = styled.footer`
   padding: 10px;
   border-top: 5px solid #51ed06;
+  @media screen and (min-width: 420px) {
+    padding: 0 40px;
+  }
 `;
 const Title = styled.h2`
-  size: 50px;
+  font-size: 2rem;
   font-weight: 700;
   text-transform: uppercase;
   color: #fff;
+  @media screen and (min-width: 520px) {
+    font-size: 2.8rem;
+  }
+  @media screen and (min-width: 720px) {
+    font-size: 3.125rem;
+
+  }
+
 `
 const Dot = styled.span`
   color: #51ed06;
@@ -27,6 +38,11 @@ const Link = styled.a`
 const H3 = styled.h3`
   text-transform: uppercase;
   color: #51ed06;
+  font-size: 1rem;
+  @media screen and (min-width: 720px) {
+    font-size: 1.25rem;
+
+  }
 `;
 
 export default () => (

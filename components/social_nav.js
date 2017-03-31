@@ -4,15 +4,31 @@ const SocialNav = styled.nav`
 
   position: absolute;
   right: 10px;
+  @media screen and (min-width: 420px) {
+    right: 40px;
+  }
+  @media screen and (min-width: 820px) {
+    top: 24px;
+  }
 `;
 
 const Icon = styled.img`
   height: 24px;
   padding-left: 5px;
   padding-right: 5px;
+  @media screen and (min-width: 960px) {
+    height: 28px;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  @media screen and (min-width: 1060px) {
+    height: 32px;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
 `;
 
-export default ({ childre }) => (
+export default ({ children }) => (
   <SocialNav>
     <a href='https://www.facebook.com/gedankenwerk' target="_blank">
       <Icon src="/static/icon-facebook@2x.png" alt="Gedankenwerk auf Facebook" />

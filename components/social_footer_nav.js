@@ -4,6 +4,18 @@ const Icon = styled.img`
   height: 24px;
   padding-left: 5px;
   padding-right: 5px;
+  &:first-child { padding-left: 0; }
+  @media screen and (min-width: 960px) {
+    height: 28px;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  @media screen and (min-width: 1060px) {
+    height: 32px;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  &:first-child { padding-left: 0; }
 `;
 
 export default() => (

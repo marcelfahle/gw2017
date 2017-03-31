@@ -33,18 +33,17 @@ export default() => (
     <Project 
       type="video"
       url="http://google.com"
-      img="/static/project-razerblade.png"
+      img="/static/project-htc.jpg"
       size="4"
-      key="razer">
+    >
       YOUTUBE CHANNEL:<br/>
-      RAZER BLADE PRO<Green>.</Green>
+      HTC U ULTRA<Green>.</Green>
     </Project>
     <Project 
       type="url"
       url="http://europeanaviationnetwork.com"
       img="/static/project-ean.png"
       size="2"
-      key="ean"
     >
       EUROPEAN AVIATION NETWORK<Green>.</Green>
     </Project>
@@ -83,11 +82,11 @@ export default() => (
     <Project 
       type="video"
       url="http://google.com"
-      img="/static/project-razerbladestealth.png"
+      img="/static/project-razerblade.png"
       size="1"
     >
       YOUTUBE CHANNEL:<br/>
-      RAZER BLADE STEALTH<Green>.</Green>
+      RAZER BLADE Pro<Green>.</Green>
     </Project>
     <Project 
       type="video"

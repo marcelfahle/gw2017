@@ -8,7 +8,7 @@ import SocialNav from './../components/social_nav';
 import Footer from './../components/footer'
 
 injectGlobal`
-  body { background: #1d1d1d; }
+  body { background: #1d1d1d; font-size: 16px; }
   //body { background: #fff; }
 `;
 
@@ -27,6 +27,12 @@ const Header = styled.header`
   @media screen and (min-width: 420px) {
     padding: 0 40px;
   }
+  @media screen and (min-width: 820px) {
+    height: 76px;
+  }
+  @media screen and (min-width: 1020px) {
+    height: 86px;
+  }
 `
 const Logo = styled.h1`
   margin: 0;
@@ -38,6 +44,10 @@ const LogoImg = styled.img`
   width: 100%;
   padding-top: 20px;
   padding-bottom: 10px;
+  @media screen and (min-width: 1020px) {
+    padding-top: 30px;
+
+  }
 `;
 const Content = styled.div`
   padding: 10px;
