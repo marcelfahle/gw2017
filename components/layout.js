@@ -9,10 +9,12 @@ import Footer from './../components/footer'
 
 injectGlobal`
   body { background: #1d1d1d; }
+  //body { background: #fff; }
 `;
 
 const Page = styled.div`
   background: #1d1d1d;
+  //background: #fff;
   color: #b2b2b2;
   font-family: 'Archivo Narrow', sans-serif;
 `;
