@@ -7,30 +7,37 @@ injectGlobal`
 
 const Project = styled.div`
   position: relative;
-  height: 200px;
-  width: 100%;
+  width: calc(100% - 4px);
+  height: 48.6vw;
   background: black url(${props => props.img}) no-repeat;
   background-size: cover;
+  margin-bottom: 8px;
   @media screen and (min-width: 500px) {
-    width: 50%;
+    width: calc(50% - 4px);
+    height: 31.25vw;
   }
   @media screen and (min-width: 1000px) {
-    width: 25%;
+    width: calc(25% - 4px);
+    height: 15vw;
   }
   &.grid-item--2 {
     @media screen and (min-width: 500px) {
-      width: 100%;
+      width: calc(100% - 4px);
+      height: 48.6vw;
     }
     @media screen and (min-width: 1000px) {
-      width: 50%;
+      width: calc(50% - 8px);
+      height: 31.25vw;
     }
   }
   &.grid-item--4 {
     @media screen and (min-width: 500px) {
-      width: 100%;
+      width: calc(100% - 4px);
+      height: 48.6vw;
     }
     @media screen and (min-width: 1000px) {
-      width: 100%;
+      width: calc(100% - 4px);
+      height: 48.6vw;
     }
   }
 `;
@@ -48,11 +55,11 @@ const Link = styled.a`
 `;
 
 
-export default ({title, type, img, url, size}) => (
+export default ({children, type, img, url, size}) => (
   <Project img={img} className={`grid-item grid-item--${size}`}>
     <Link href={url} target="_blank">
       <Title>
-        { title }
+        { children }
       </Title>
     </Link>
   </Project>
