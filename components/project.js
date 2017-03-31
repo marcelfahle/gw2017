@@ -1,3 +1,4 @@
+import React from 'react';
 import styled, { injectGlobal } from 'styled-components';
 injectGlobal`
   .grid-item--s1 { width 25%; }
@@ -5,7 +6,7 @@ injectGlobal`
 `;
 
 
-const Project = styled.div`
+const ProjectWrapper = styled.div`
   position: relative;
   width: calc(100% );
   height: 48.6vw;
@@ -68,41 +69,50 @@ const Link = styled.a`
   height: 100%; 
 `;
 
+//export default ({children, type, img, url, size}) => {
 
-export default ({children, type, img, url, size}) => {
+export default class Project extends React.Component {
+  constructor( props ) {
+    super( props );
 
-  const project = (children, img, url, size) => {
+  }
+
+
+  category (children) {
     return (
-      <Project img={img} className={`grid-item grid-item--${size}`}>
+      <ProjectWrapper className={`category grid-item grid-item--1`}>
+        <Title>{children}</Title>
+      </ProjectWrapper>
+    )
+  }
+
+  project (children, img, url, size) {
+    return (
+      <ProjectWrapper img={img} className={`has-img grid-item grid-item--${size}`}>
         <Link href={url} target="_blank">
           <Title>
             { children }
           </Title>
         </Link>
-      </Project>
+      </ProjectWrapper>
     )
   }
 
-  const category = (children) => {
-    return (
-      <Project className={`category grid-item grid-item--1`}>
-        <Title>{children}</Title>
-      </Project>
-    )
-  }
-
+  render() {
+    const { type, children, img, url, size } = this.props;
     switch (type) {
       case "video":
-        return project( children, img, url, size)
+        return this.project( children, img, url, size)
         break;
       case "link":
-        return project( children, img, url, size)
+        return this.project( children, img, url, size)
         break;
       case "category":
-        return category( children )
+        return this.category( children )
       default:
-        return project( children, img, url, size)
+        return this.project( children, img, url, size)
         break;
     }
-  
+  }
+
 }
