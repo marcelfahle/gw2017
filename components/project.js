@@ -67,6 +67,14 @@ const Title = styled.h3`
 const Link = styled.a`
   display: block;
   height: 100%; 
+
+  &.t-video {
+    background: transparent url('/static/btn-play.svg') no-repeat;
+    background-size: 18%;
+    background-position: center;
+  }
+
+
 `;
 
 //export default ({children, type, img, url, size}) => {
@@ -74,25 +82,29 @@ const Link = styled.a`
 export default class Project extends React.Component {
   constructor( props ) {
     super( props );
-
   }
+
+  createMarkup( markup ) {
+    return { __html: markup + '<span style="color: #51ed06">.</span>' };
+  }
+
 
 
   category (children) {
     return (
       <ProjectWrapper className={`category grid-item grid-item--1`}>
-        <Title>{children}</Title>
+        <Title 
+          dangerouslySetInnerHTML={this.createMarkup( children )} />
       </ProjectWrapper>
     )
   }
 
-  project (children, img, url, size) {
+  project (children, img, url, size, type) {
     return (
       <ProjectWrapper img={img} className={`has-img grid-item grid-item--${size}`}>
-        <Link href={url} target="_blank">
-          <Title>
-            { children }
-          </Title>
+        <Link href={url} target="_blank" className={`t-${type} t-${type}-${size}`}>
+          <Title
+            dangerouslySetInnerHTML={this.createMarkup( children )} />
         </Link>
       </ProjectWrapper>
     )
@@ -102,15 +114,15 @@ export default class Project extends React.Component {
     const { type, children, img, url, size } = this.props;
     switch (type) {
       case "video":
-        return this.project( children, img, url, size)
+        return this.project( children, img, url, size, type)
         break;
       case "link":
-        return this.project( children, img, url, size)
+        return this.project( children, img, url, size, type)
         break;
       case "category":
         return this.category( children )
       default:
-        return this.project( children, img, url, size)
+        return this.project( children, img, url, size, type)
         break;
     }
   }

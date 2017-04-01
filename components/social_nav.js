@@ -10,6 +10,9 @@ const SocialNav = styled.nav`
   @media screen and (min-width: 820px) {
     top: 24px;
   }
+  @media screen and (min-width: 1020px) {
+    top: 28px;
+  }
 `;
 
 const Icon = styled.img`
