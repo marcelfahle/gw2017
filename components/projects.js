@@ -1,7 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
 
-import data from './../static/data.json';
 
 import Project from './project';
 import Green from './green';
@@ -34,19 +33,22 @@ export default class Projects extends React.Component {
     super( props );
 
     this.msnry = null;
+
+    this.state = {
+      entriesNum: 6,
+      maxEntriesNum: 40
+    }
   }
+
 
   componentDidUpdate( prevProps, prevState ) {
-    this.msnry.layout();
+    this.initMasonry();
   }
-
   componentWillReceiveProps( nextProps ) {
     this.msnry.layout();
   }
 
-
-  componentDidMount() {
-
+  initMasonry() {
     const imagesLoaded = require('imagesloaded');
     const grid = document.querySelector('.grid');
     this.msnry = new Masonry( grid, {
@@ -56,12 +58,18 @@ export default class Projects extends React.Component {
       gutter: ".gutter-sizer"
     });
     imagesLoaded( grid ).on( 'progress', function() {
+      console.log('image loaded');
       this.msnry.layout();
     });
   }
 
+
+  componentDidMount() {
+    this.initMasonry();
+  }
+
   render() {
-    const { projects } = data;
+    const { projects, projectsNum } = this.props;
 
     return(
       <ProjectsWrapper className="grid">
@@ -69,7 +77,7 @@ export default class Projects extends React.Component {
         <Sizer className="grid-sizer"></Sizer>
         <GutterSizer className="gutter-sizer"></GutterSizer>
 
-        { projects.map(
+        { projects.slice( 0, projectsNum ).map(
           (p) => { return (
               <Project 
                 type={p.type}
@@ -81,6 +89,7 @@ export default class Projects extends React.Component {
               </Project>
             )}
         )}
+
 
 
       </ProjectsWrapper>
