@@ -66,10 +66,19 @@ const Title = styled.h3`
   padding: 5px;
   font-size: 0.9rem;
   text-transform: uppercase;
+  &.category-title {
+    font-size: 1.3em;
+    bottom: auto;
+    top: 18px;
+  }
   @media screen and (min-width: 560px) {
     font-size: 1.5rem;
     &.title-size-1 {
       font-size: 1rem;
+    }
+    &.category-title {
+      font-size: 1.875rem;
+      top: 35px;
     }
   }
 `;
@@ -103,7 +112,7 @@ export default class Project extends React.Component {
     return (
       <ProjectWrapper className={`category grid-item grid-item--1`}>
         <Title 
-          className={`title-size-1`}
+          className={`category-title title-size-1`}
           dangerouslySetInnerHTML={this.createMarkup( children )} />
       </ProjectWrapper>
     )

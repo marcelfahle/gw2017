@@ -23,6 +23,8 @@ const PageTitle = styled.h1`
   padding-bottom: 3px;
   //width: 80%;
   font-size: 1.4rem;
+  letter-spacing: 0.1px;
+  font-weight: 800;
   @media screen and (min-width: 410px) {
     font-size: 1.9rem;
   }
