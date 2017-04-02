@@ -95,7 +95,11 @@ const Stripes2 = styled.div`
   height: 54px;
   background: transparent url('/static/stripes2.svg') no-repeat;
   width: 100vw;
-  margin-left: -40px;
+  margin-left: -10px;
+  @media screen and (min-width: 420px) {
+    margin-left: -40px;
+
+  }
 `;
 
 

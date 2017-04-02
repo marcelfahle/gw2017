@@ -14,7 +14,7 @@ const ProjectWrapper = styled.div`
   background-size: cover;
   //margin-bottom: 8px;
   margin-bottom: 1vw;
-  @media screen and (min-width: 500px) {
+  @media screen and (min-width: 410px) {
     width: calc(49% );
     height: 31.25vw;
     //margin-bottom: 0.5vw;
@@ -24,7 +24,7 @@ const ProjectWrapper = styled.div`
     height: calc(15.625vw - 0.44vw - 0px);
   }
   &.grid-item--2 {
-    @media screen and (min-width: 500px) {
+    @media screen and (min-width: 410px) {
       width: calc(99.5% );
       height: 48.6vw;
     }
@@ -34,7 +34,7 @@ const ProjectWrapper = styled.div`
     }
   }
   &.grid-item--4 {
-    @media screen and (min-width: 500px) {
+    @media screen and (min-width: 410px) {
       width: calc(100% );
       height: 48.6vw;
     }
@@ -46,7 +46,7 @@ const ProjectWrapper = styled.div`
   &.category {
     border-left: 9px solid #51ed06;
     width: calc(100% - 9px);
-    @media screen and (min-width: 500px) {
+    @media screen and (min-width: 410px) {
       width: calc(49% - 9px);
 
     }
@@ -61,8 +61,17 @@ const Title = styled.h3`
   bottom: 10px;
   background: black;
   color: white;
+  margin: 0;
+  line-height: 1em;
   padding: 5px;
+  font-size: 0.9rem;
   text-transform: uppercase;
+  @media screen and (min-width: 560px) {
+    font-size: 1.5rem;
+    &.title-size-1 {
+      font-size: 1rem;
+    }
+  }
 `;
 const Link = styled.a`
   display: block;
@@ -94,6 +103,7 @@ export default class Project extends React.Component {
     return (
       <ProjectWrapper className={`category grid-item grid-item--1`}>
         <Title 
+          className={`title-size-1`}
           dangerouslySetInnerHTML={this.createMarkup( children )} />
       </ProjectWrapper>
     )
@@ -104,6 +114,7 @@ export default class Project extends React.Component {
       <ProjectWrapper img={img} className={`has-img grid-item grid-item--${size}`}>
         <Link href={url} target="_blank" className={`t-${type} t-${type}-${size}`}>
           <Title
+            className={`title-size-${size}`}
             dangerouslySetInnerHTML={this.createMarkup( children )} />
         </Link>
       </ProjectWrapper>

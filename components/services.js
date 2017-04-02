@@ -37,8 +37,11 @@ const ServiceTitle = styled.h2`
   border-bottom: 5px solid #51ed06;
   margin-bottom: 0;
 
-  font-size: 2.5em;
+  font-size: 1.3em;
   margin-top: 0.4em;
+  @media screen and (min-width: 720px) {
+    font-size: 2.5em;
+  }
 `;
 const ServiceCopy = styled.p`
   font-size: 1rem;
@@ -57,6 +60,10 @@ const Stripes1 = styled.div`
   background: transparent url('/static/stripes1.svg') no-repeat;
   width: 100vw;
   margin-left: -40px;
+  display: none;
+  @media screen and (min-width: 720px) {
+    display: block;
+  }
 `;
 
 
