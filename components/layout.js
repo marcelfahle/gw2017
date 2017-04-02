@@ -52,7 +52,7 @@ const LogoImg = styled.img`
 const Content = styled.div`
   padding: 10px;
 
-  @media screen and (min-width: 420px) {
+  @media screen and (min-width: 480px) {
     padding: 40px;
     padding-top: 0;
   }

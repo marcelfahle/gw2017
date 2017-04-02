@@ -39,8 +39,14 @@ const ServiceTitle = styled.h2`
 
   font-size: 1.3em;
   margin-top: 0.4em;
+  @media screen and (min-width:410px) {
+    font-size: 1.6em;
+  }
   @media screen and (min-width: 720px) {
     font-size: 2.5em;
+  }
+  @media screen and (min-width: 820px) {
+    font-size: 1.8em;
   }
 `;
 const ServiceCopy = styled.p`
@@ -48,21 +54,28 @@ const ServiceCopy = styled.p`
   max-width: 80%;
   margin: 0 auto;
   margin-top: 1em;
+  margin-bottom: 3em;
   @media screen and (min-width: 720px) {
     font-size: 1.25rem;
-
+  }
+  @media screen and (min-width: 820px) {
+    font-size: 1rem;
   }
 `
 const Stripes1 = styled.div`
   top: 13%;
   position: absolute;
-  height: 120px;
+  height: 70px;
   background: transparent url('/static/stripes1.svg') no-repeat;
   width: 100vw;
   margin-left: -40px;
   display: none;
-  @media screen and (min-width: 720px) {
+  @media screen and (min-width: 820px) {
     display: block;
+  }
+  @media screen and (min-width: 1020px) {
+    height: 120px;
+
   }
 `;
 

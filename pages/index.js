@@ -23,11 +23,11 @@ const PageTitle = styled.h1`
   padding-bottom: 3px;
   //width: 80%;
   font-size: 1.4rem;
-  @media screen and (min-width: 420px) {
-    font-size: 1.6rem;
+  @media screen and (min-width: 410px) {
+    font-size: 1.9rem;
   }
   @media screen and (min-width: 520px) {
-    font-size: 1.8rem;
+    font-size: 2.2rem;
   }
   @media screen and (min-width: 720px) {
     font-size: 2.8rem;
@@ -96,7 +96,7 @@ const Stripes2 = styled.div`
   background: transparent url('/static/stripes2.svg') no-repeat;
   width: 100vw;
   margin-left: -10px;
-  @media screen and (min-width: 420px) {
+  @media screen and (min-width: 480px) {
     margin-left: -40px;
 
   }
