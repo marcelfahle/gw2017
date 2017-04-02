@@ -54,6 +54,7 @@ const Content = styled.div`
 
   @media screen and (min-width: 420px) {
     padding: 40px;
+    padding-top: 0;
   }
 `;
 

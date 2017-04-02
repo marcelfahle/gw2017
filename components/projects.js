@@ -8,6 +8,7 @@ import Green from './green';
 const ProjectsWrapper = styled.div`
   margin: 0;
   padding: 0;
+  margin-bottom: 40px;
   list-style: none;
   width: 100%;
 `;

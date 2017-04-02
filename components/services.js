@@ -5,12 +5,15 @@ const Green = styled.span`
   color: #51ed06;
 `;
 const Services = styled.ul`
+  position: relative;
   list-style: none;
   margin: 0;
   padding: 0;
   margin-bottom: 5em;
 `;
 const Service = styled.li`
+  position: relative;
+  z-index: 10;
   text-align: center;
   > img {
     max-width: 430px;
@@ -20,31 +23,46 @@ const Service = styled.li`
   }
   @media screen and (min-width: 820px) {
     display: table-cell;
-    padding-left: 1.5%;
-    padding-right: 1.5%;
-    width: 30%;
+    //padding-left: 1.5%;
+    //padding-right: 1.5%;
+    width: 33%;
   }
 `;
 const ServiceTitle = styled.h2`
   color: white;
   text-transform: uppercase;
   display: inline-block;
-  line-height: 1em;
+  line-height: 0.9em;
   padding-bottom: 3px;
   border-bottom: 5px solid #51ed06;
   margin-bottom: 0;
+
+  font-size: 2.5em;
+  margin-top: 0.4em;
 `;
 const ServiceCopy = styled.p`
   font-size: 1rem;
+  max-width: 80%;
+  margin: 0 auto;
+  margin-top: 1em;
   @media screen and (min-width: 720px) {
     font-size: 1.25rem;
 
   }
 `
+const Stripes1 = styled.div`
+  top: 13%;
+  position: absolute;
+  height: 120px;
+  background: transparent url('/static/stripes1.svg') no-repeat;
+  width: 100vw;
+  margin-left: -40px;
+`;
 
 
 export default () => (
   <Services>
+    <Stripes1 />
     <Service>
       <img src="/static/services-websites@2x.png" alt="Website Entwicklung." />
       <ServiceTitle>

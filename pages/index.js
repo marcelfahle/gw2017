@@ -9,6 +9,7 @@ import Services from '../components/services';
 
 const PageHeader = styled.div`
   text-align: center; 
+  margin-bottom: 3rem;
 `;
 const PageTitle = styled.h1`
   color: white;
@@ -16,7 +17,8 @@ const PageTitle = styled.h1`
   text-align: center;
   border-bottom: 5px solid #51ed06;
   display: inline-block;
-  margin-bottom: 1rem;
+  margin-bottom: 0.4em;
+  margin-top: 0.5em;
   line-height: 1em;
   padding-bottom: 3px;
   //width: 80%;
@@ -29,16 +31,18 @@ const PageTitle = styled.h1`
   }
   @media screen and (min-width: 720px) {
     font-size: 2.8rem;
+    border-bottom: 7px solid #51ed06;
   }
   @media screen and (min-width: 820px) {
     font-size: 3rem;
-    margin-bottom: 0.5em;
+    margin-bottom: 0.4em;
   }
   @media screen and (min-width: 960px) {
     font-size: 3.75rem;
   }
   @media screen and (min-width: 1060px) {
     font-size: 4.375rem;
+    border-bottom: 9px solid #51ed06;
   }
 
 `;
@@ -46,9 +50,24 @@ const Intro = styled.p`
   text-align: center;
   margin-top: 0;
   font-size: 1em;
+  line-height: 1.3em;
+  max-width: 90%;
+  margin: 0 auto;
   @media screen and (min-width: 720px) {
     font-size: 1.25em;
-
+    max-width: 75%;
+  }
+  @media screen and (min-width: 960px) {
+    max-width: 68%;
+  }
+  @media screen and (min-width: 1020px) {
+    max-width: 65%;
+  }
+  @media screen and (min-width: 1280px) {
+    max-width: 55%;
+  }
+  @media screen and (min-width: 1400px) {
+    max-width: 50%;
   }
 `;
 const Green = styled.span`
@@ -62,7 +81,6 @@ const LoadMoreButton = styled.a`
   text-align: center;
   line-height: 1.5rem;
   background: #51ed06;
-  margin-top: 20px;
   padding: 8px 20px;
   text-transform: uppercase;
   text-decoration: none;
@@ -70,6 +88,14 @@ const LoadMoreButton = styled.a`
 `;
 const LoadMoreButtonWrapper = styled.div`
   text-align: center;
+  margin-bottom: 40px;
+`;
+
+const Stripes2 = styled.div`
+  height: 54px;
+  background: transparent url('/static/stripes2.svg') no-repeat;
+  width: 100vw;
+  margin-left: -40px;
 `;
 
 
@@ -81,14 +107,32 @@ export default class Index extends React.Component {
     super( props ) 
 
     this.state = {
-      projectsNum: 6,
+      loadedOnce: true,
+      projectsNum: 50,
       totalProjectsNum: data.projects.length
     }
+
+    this.handleScroll = this.handleScroll.bind(this);
   }
+
+
+  componentDidMount() {
+    window.addEventListener("scroll", this.handleScroll);
+  }
+
+  componentWillUnmount() {
+    window.removeEventListener("scroll", this.handleScroll);
+  }
+
 
   showMoreProjects( e ) {
     e.preventDefault();
-    this.setState( { projectsNum: this.state.projectsNum + 5 } )
+    this.setState( 
+      { 
+        projectsNum: this.state.projectsNum + 5,
+        loadedOnce: true
+      }
+    );
   }
 
   loadMoreButton() {
@@ -102,6 +146,20 @@ export default class Index extends React.Component {
     )
   }
 
+  handleScroll() {
+    const windowHeight = "innerHeight" in window ? window.innerHeight : document.documentElement.offsetHeight;
+    const body = document.body;
+    const html = document.documentElement;
+    const docHeight = Math.max(body.scrollHeight, body.offsetHeight, html.clientHeight,  html.scrollHeight, html.offsetHeight);
+    const windowBottom = windowHeight + window.pageYOffset;
+    if (windowBottom >= docHeight-50 && this.state.loadedOnce) {
+      this.showMoreProjects( {preventDefault: () => null} );
+    } else {
+
+    }
+  }
+
+
 
 
   render() {
@@ -112,7 +170,7 @@ export default class Index extends React.Component {
 
         <PageHeader>
           <PageTitle>
-            Gedankenwerk:<br/>
+            <Green>Gedanken</Green>werk:<br/>
             Ideen für die digitale Welt<Green>.</Green>
           </PageTitle>
           <Intro>
@@ -121,6 +179,8 @@ export default class Index extends React.Component {
         </PageHeader>
 
         <Services />
+
+        <Stripes2 />
 
 
         <PageHeader>
@@ -134,14 +194,11 @@ export default class Index extends React.Component {
           projectsNum={ this.state.projectsNum }
         />
 
-        {
-          (this.state.projectsNum < this.state.totalProjectsNum) ?
+        { 
+          ( !this.state.loadedOnce  ) ?
             this.loadMoreButton() :
             ''
-          
         }
-
-
 
       </Layout>
 
