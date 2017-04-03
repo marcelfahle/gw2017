@@ -69,15 +69,15 @@ export default class Layout extends React.Component {
             padding: 0 10px;
             height: 95px;
             border-bottom: 5px solid #51ed06;
-            @media screen and (min-width: 420px) {
-              padding: 0 40px;
-            }
-            @media screen and (min-width: 820px) {
-              height: 76px;
-            }
-            @media screen and (min-width: 1020px) {
-              height: 86px;
-            }
+          }
+          @media screen and (min-width: 420px) {
+            header { padding: 0 40px; }
+          }
+          @media screen and (min-width: 820px) {
+           header { height: 76px; }
+          }
+          @media screen and (min-width: 1020px) {
+            header { height: 86px; }
           }
           .page-title {
             margin: 0;
@@ -88,14 +88,16 @@ export default class Layout extends React.Component {
             width: 100%;
             padding-top: 20px;
             padding-bottom: 10px;
-            @media screen and (min-width: 1020px) {
-              padding-top: 30px;
-            }
+          }
+          @media screen and (min-width: 1020px) {
+            .logo { padding-top: 30px; }
           }
           .content {
             padding: 10px;
 
-            @media screen and (min-width: 480px) {
+          }
+          @media screen and (min-width: 480px) {
+            .content {
               padding: 40px;
               padding-top: 0;
             }

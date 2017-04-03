@@ -1,4 +1,3 @@
-import styled from 'styled-components';
 
 
 export default ({ children }) => (
@@ -8,26 +7,30 @@ export default ({ children }) => (
       .social-nav {
         position: absolute;
         right: 10px;
-        @media screen and (min-width: 420px) {
-          right: 40px;
-        }
-        @media screen and (min-width: 820px) {
-          top: 24px;
-        }
-        @media screen and (min-width: 1020px) {
-          top: 28px;
-        }
+      }
+      @media screen and (min-width: 420px) {
+        .social-nav { right: 40px; }
+      }
+      @media screen and (min-width: 820px) {
+        .social-nav { top: 24px; }
+      }
+      @media screen and (min-width: 1020px) {
+        .social-nav { top: 28px; }
       }
       .icon {
         height: 24px;
         padding-left: 5px;
         padding-right: 5px;
-        @media screen and (min-width: 960px) {
+      }
+      @media screen and (min-width: 960px) {
+        .icon {
           height: 28px;
           padding-left: 10px;
           padding-right: 10px;
         }
-        @media screen and (min-width: 1060px) {
+      }
+      @media screen and (min-width: 1060px) {
+        .icon {
           height: 32px;
           padding-left: 15px;
           padding-right: 15px;
