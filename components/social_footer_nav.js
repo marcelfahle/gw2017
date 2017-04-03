@@ -20,19 +20,19 @@ const Icon = styled.img`
 
 export default() => (
   <nav>
-    <a href='https://www.facebook.com/gedankenwerk' target="_blank">
+    <a rel="noopener" href='https://www.facebook.com/gedankenwerk' target="_blank">
       <Icon src="/static/monoicon-facebook@2x.png" alt="Gedankenwerk auf Facebook" />
     </a>
-    <a href='https://www.instagram.com/gedankenwerk_com/' target="_blank">
+    <a rel="noopener" href='https://www.instagram.com/gedankenwerk_com/' target="_blank">
       <Icon src="/static/monoicon-instagram@2x.png" alt="Gedankenwerk auf Instagram" />
     </a>
-    <a href='https://vimeo.com/gedankenwerk' target="_blank">
+    <a rel="noopener" href='https://vimeo.com/gedankenwerk' target="_blank">
       <Icon src="/static/monoicon-vimeo@2x.png" alt="Gedankenwerk auf Vimeo" />
     </a>
-    <a href='https://www.youtube.com/channel/UCIt6mou8e8jgyA5-z2konww' target="_blank">
+    <a rel="noopener" href='https://www.youtube.com/channel/UCIt6mou8e8jgyA5-z2konww' target="_blank">
       <Icon src="/static/monoicon-gadgetstage@2x.png" alt="Gadget Stage YouTube Channel" />
     </a>
-    <a href='https://www.youtube.com/channel/UCkYe1j5dm2LkG9Pdvnm4VEQ' target="_blank">
+    <a rel="noopener" href='https://www.youtube.com/channel/UCkYe1j5dm2LkG9Pdvnm4VEQ' target="_blank">
       <Icon src="/static/monoicon-youtube@2x.png" alt="Gedankenwerk auf YouTube" />
     </a>
   </nav>

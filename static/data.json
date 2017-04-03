@@ -128,7 +128,7 @@
     { 
       "type":"video",
       "url":"https://www.youtube.com/watch?v=uOxjgBA9wd4",
-      "img":"/static/project-huawei.png",
+      "img":"/static/project-huawei.jpg",
       "size":"2",
       "title": "YOUTUBE CHANNEL:<br/>HUAWEI MATE 9"
     },
@@ -147,7 +147,7 @@
     { 
       "type":"url",
       "url":"http://kunden.gedankenwerk.com/Telekom_Digitale_Filiale/index.html",
-      "img":"/static/project-geschaeftskunden.png",
+      "img":"/static/project-geschaeftskunden.jpg",
       "size":"2",
       "title": "GESCHÄFTSKUNDEN PRÄSENTATIONSTOOL"
     },
@@ -212,7 +212,7 @@
     { 
       "type":"video",
       "url":"http://google.com",
-      "img":"/static/project-macbookpro2.png",
+      "img":"/static/project-macbookpro2.jpg",
       "size":"2",
       "title": "YOUTUBE CHANNEL:<br/>MACBOOK PRO 15“ MIT TOUCH BAR 2016"
     },
@@ -258,9 +258,9 @@
     { 
       "type":"video",
       "url":"https://vimeo.com/196893314",
-      "img":"/static/project-eisdisco.png",
+      "img":"/static/project-eisdisco.jpg",
       "size":"2",
-      "title": "ZECHE ZOLLVEREIN EISDICSO"
+      "title": "ZECHE ZOLLVEREIN EISDISCO"
     },
     { 
       "type":"url",
@@ -276,7 +276,7 @@
     { 
       "type":"video",
       "url":"https://vimeo.com/192439191",
-      "img":"/static/project-ruhrmuseum.png",
+      "img":"/static/project-ruhrmuseum.jpg",
       "size":"2",
       "title": "ZECHE ZOLLVEREIN RUHR MUSEUM"
     },

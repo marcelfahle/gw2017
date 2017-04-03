@@ -32,19 +32,21 @@ export default class Layout extends React.Component {
 
 					<link rel="manifest" href="/static/manifest.json" />
 
+          <meta name="theme-color" content="#51de06" />
+
           <meta property="og:title" content="GEDANKENWERK. Web & Videoproduktion" />
           <meta property="og:description" content="Wir lieben das Web. Und wir entwickeln für unsere Kunden, was das Web liebt: innovative Websites, professionelle Videos und ausgereiften Content für die Sozialen Medien. Das tun wir bei Gedankenwerk für große und kleine Unternehmen – und mit den passenden Spezialisten für jede Herausforderung. Sprechen Sie uns einfach an. Denn mit uns kann man reden." />
-          <meta property="og:image" content="https://gedankenwerk.com/social.jpg" />
+          <meta property="og:image" content="https://gedankenwerk.com/static/social.jpg" />
           <meta property="og:url" content="https://gedankenwerk.com" />
 
           <meta name="twitter:title" content="GEDANKENWERK. Web & Videoproduktion" />
           <meta name="twitter:description" content="Wir lieben das Web. Und wir entwickeln für unsere Kunden, was das Web liebt: innovative Websites, professionelle Videos und ausgereiften Content für die Sozialen Medien. Das tun wir bei Gedankenwerk für große und kleine Unternehmen – und mit den passenden Spezialisten für jede Herausforderung. Sprechen Sie uns einfach an. Denn mit uns kann man reden." />
-          <meta name="twitter:image" content="https://gedankenwerk.com/social.jpg"/>
+          <meta name="twitter:image" content="https://gedankenwerk.com/static/social.jpg"/>
           <meta name="twitter:card" content="summary_large_image" />
         </Head>
         <header>
           <h1 className="page-title">
-            <a href="/">
+            <a rel="noopener" href="/">
               <img className="logo" src="/static/logo-gw.svg" alt="GEDANKENWERK. Web & Videoproduktion"/>
             </a>
           </h1>

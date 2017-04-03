@@ -121,7 +121,7 @@ export default class Project extends React.Component {
   project (children, img, url, size, type) {
     return (
       <ProjectWrapper img={img} className={`has-img grid-item grid-item--${size}`}>
-        <Link href={url} target="_blank" className={`t-${type} t-${type}-${size}`}>
+        <Link rel="noopener" href={url} target="_blank" className={`t-${type} t-${type}-${size}`}>
           <Title
             className={`title-size-${size}`}
             dangerouslySetInnerHTML={this.createMarkup( children )} />

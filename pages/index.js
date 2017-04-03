@@ -146,7 +146,7 @@ export default class Index extends React.Component {
     return (
       <LoadMoreButtonWrapper>
         <LoadMoreButton 
-          href="#"
+          rel="noopener" href="#"
           onClick={ this.showMoreProjects.bind(this) }
         >Mehr...</LoadMoreButton>
       </LoadMoreButtonWrapper>
