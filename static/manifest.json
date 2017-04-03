@@ -1,0 +1,24 @@
+{
+  "short_name": "Gedankenwerk",
+  "name": "GEDANKENWERK. Web & Videoproduktion",
+	"theme_color": "#51ed06",
+	"background_color": "#1d1d1d",
+  "icons": [
+    {
+      "src": "/static/icon-1x.png",
+      "type": "image/png",
+      "sizes": "48x48"
+    },
+    {
+      "src": "/static/icon-2x.png",
+      "type": "image/png",
+      "sizes": "96x96"
+    },
+    {
+      "src": "/static/icon-4x.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    }
+  ],
+  "start_url": "/"
+}

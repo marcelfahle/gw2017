@@ -48,6 +48,9 @@ const ServiceTitle = styled.h2`
   @media screen and (min-width: 820px) {
     font-size: 1.8em;
   }
+  @media screen and (min-width: 1020px) {
+    font-size: 2.4em;
+  }
 `;
 const ServiceCopy = styled.p`
   font-size: 1rem;
@@ -55,19 +58,24 @@ const ServiceCopy = styled.p`
   margin: 0 auto;
   margin-top: 1em;
   margin-bottom: 3em;
+  line-height: 1.4em;
   @media screen and (min-width: 720px) {
     font-size: 1.25rem;
   }
   @media screen and (min-width: 820px) {
     font-size: 1rem;
   }
+  @media screen and (min-width: 960px) {
+    margin-top: 1.4em;
+    font-size: 1.2rem;
+  }
 `
 const Stripes1 = styled.div`
   top: 13%;
   position: absolute;
   height: 70px;
-  background: transparent url('/static/stripes1.svg') no-repeat;
-  width: 100vw;
+  background: transparent url('/static/stripes1xl.svg') no-repeat;
+  width: calc( 100vw + 40px );
   margin-left: -40px;
   display: none;
   @media screen and (min-width: 820px) {
@@ -75,7 +83,6 @@ const Stripes1 = styled.div`
   }
   @media screen and (min-width: 1020px) {
     height: 120px;
-
   }
 `;
 

@@ -67,6 +67,10 @@ export default () => (
       Fax 0201 630 191 - 88<br/>
     </p>
 
+    <p>
+      <Link href="/impressum">Impressum</Link>
+    </p>
+
     <H3>Folge uns</H3>
 
     <SocialFooterNav />

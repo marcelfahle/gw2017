@@ -2629,6 +2629,12 @@ react-dom@^15.4.2:
     loose-envify "^1.1.0"
     object-assign "^4.1.0"
 
+react-ga@^2.1.2:
+  version "2.1.2"
+  resolved "https://registry.yarnpkg.com/react-ga/-/react-ga-2.1.2.tgz#7af206c5e8761d7176e15773fe826acdb70ac653"
+  dependencies:
+    object-assign "^4.0.1"
+
 react-hot-loader@3.0.0-beta.6:
   version "3.0.0-beta.6"
   resolved "https://registry.yarnpkg.com/react-hot-loader/-/react-hot-loader-3.0.0-beta.6.tgz#463fac0bfc8b63a8385258af20c91636abce75f4"
@@ -3028,7 +3034,7 @@ styled-components@^1.4.4:
     is-plain-object "^2.0.1"
     supports-color "^3.1.2"
 
-styled-jsx@0.5.7:
+styled-jsx@0.5.7, styled-jsx@^0.5.7:
   version "0.5.7"
   resolved "https://registry.yarnpkg.com/styled-jsx/-/styled-jsx-0.5.7.tgz#2cb02263ffa719b1435a864fdd6c62802ae86669"
   dependencies:
