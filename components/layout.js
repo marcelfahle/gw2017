@@ -27,7 +27,7 @@ export default class Layout extends React.Component {
           <meta charSet='utf-8' />
           <meta name='viewport' content='initial-scale=1.0, width=device-width' />
           <meta name="author" content="Gedankenwerk" />
-          <meta name="description" content="Wir lieben das Web. Und wir entwickeln für unsere Kunden, was das Web liebt: innovative Websites, professionelle Videos und ausgereiften Content für die Sozialen Medien. Das tun wir bei Gedankenwerk für große und kleine Unternehmen – und mit den passenden Spezialisten für jede Herausforderung. Sprechen Sie uns einfach an. Denn mit uns kann man reden." />
+          <meta name="description" content="Wir lieben das Web. Und wir entwickeln für unsere Kunden, was das Web liebt: innovative Websites, professionelle Videos und ausgereiften Content für die Sozialen Medien. Das tun wir bei Gedankenwerk für große und kleine Unternehmen" />
           <meta name="robots" content="index,follow" />
 
 					<link rel="manifest" href="/static/manifest.json" />
@@ -35,12 +35,12 @@ export default class Layout extends React.Component {
           <meta name="theme-color" content="#51de06" />
 
           <meta property="og:title" content="GEDANKENWERK. Web & Videoproduktion" />
-          <meta property="og:description" content="Wir lieben das Web. Und wir entwickeln für unsere Kunden, was das Web liebt: innovative Websites, professionelle Videos und ausgereiften Content für die Sozialen Medien. Das tun wir bei Gedankenwerk für große und kleine Unternehmen – und mit den passenden Spezialisten für jede Herausforderung. Sprechen Sie uns einfach an. Denn mit uns kann man reden." />
+          <meta property="og:description" content="Wir lieben das Web. Und wir entwickeln für unsere Kunden, was das Web liebt: innovative Websites, professionelle Videos und ausgereiften Content für die Sozialen Medien. Das tun wir bei Gedankenwerk für große und kleine Unternehmen." />
           <meta property="og:image" content="https://gedankenwerk.com/static/social.jpg" />
           <meta property="og:url" content="https://gedankenwerk.com" />
 
           <meta name="twitter:title" content="GEDANKENWERK. Web & Videoproduktion" />
-          <meta name="twitter:description" content="Wir lieben das Web. Und wir entwickeln für unsere Kunden, was das Web liebt: innovative Websites, professionelle Videos und ausgereiften Content für die Sozialen Medien. Das tun wir bei Gedankenwerk für große und kleine Unternehmen – und mit den passenden Spezialisten für jede Herausforderung. Sprechen Sie uns einfach an. Denn mit uns kann man reden." />
+          <meta name="twitter:description" content="Wir lieben das Web. Und wir entwickeln für unsere Kunden, was das Web liebt: innovative Websites, professionelle Videos und ausgereiften Content für die Sozialen Medien. Das tun wir bei Gedankenwerk für große und kleine Unternehmen." />
           <meta name="twitter:image" content="https://gedankenwerk.com/static/social.jpg"/>
           <meta name="twitter:card" content="summary_large_image" />
         </Head>
