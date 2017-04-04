@@ -67,9 +67,17 @@ const Title = styled.h3`
   font-size: 0.9rem;
   text-transform: uppercase;
   &.category-title {
-    font-size: 1.3em;
+    font-size: 1.1em;
     bottom: auto;
     top: 18px;
+  }
+  @media screen and (min-width: 410px) {
+    &.title-size-1 {
+      font-size: 0.65rem;
+    }
+    &.category-title {
+      font-size: 1em;
+    }
   }
   @media screen and (min-width: 560px) {
     font-size: 1.5rem;

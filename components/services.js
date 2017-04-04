@@ -75,7 +75,7 @@ const Stripes1 = styled.div`
   position: absolute;
   height: 70px;
   background: transparent url('/static/stripes1xl.svg') no-repeat;
-  width: calc( 100vw + 40px );
+  width: calc( 100vw );
   margin-left: -40px;
   display: none;
   @media screen and (min-width: 820px) {
