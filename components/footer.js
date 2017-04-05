@@ -1,10 +1,13 @@
 import styled from 'styled-components';
+import Copyright from './copyright';
 
 import SocialFooterNav from './../components/social_footer_nav';
 
 const Footer = styled.footer`
+  position: relative;
   padding: 10px;
   border-top: 5px solid #51ed06;
+  margin-bottom: 20px;
   @media screen and (min-width: 420px) {
     padding: 0 40px;
   }
@@ -74,6 +77,8 @@ export default () => (
     <H3>Folge uns</H3>
 
     <SocialFooterNav />
+
+    <Copyright co="Gedankenwerk" />  
 
   </Footer>
 )

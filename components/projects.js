@@ -59,7 +59,7 @@ export default class Projects extends React.Component {
       gutter: ".gutter-sizer"
     });
     imagesLoaded( grid ).on( 'progress', function() {
-      console.log('image loaded');
+      //console.log('image loaded');
       this.msnry.layout();
     });
   }

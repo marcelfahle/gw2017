@@ -62,6 +62,7 @@ export default class Layout extends React.Component {
             //background: #fff;
             color: #b2b2b2;
             font-family: 'Archivo Narrow', sans-serif;
+            overflow-x: hidden;
           }
           header {
             background: #141414;
