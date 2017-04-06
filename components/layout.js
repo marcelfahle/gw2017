@@ -3,7 +3,8 @@ import Link from 'next/link'
 import Head from 'next/head'
 import 'glamor/reset'
 import ReactGA from 'react-ga';
-import { injectGlobal } from 'styled-components';
+import { defineMessages, injectIntl } from 'react-intl';
+ 
 
 import SocialNav from './../components/social_nav';
 import Footer from './../components/footer'
@@ -11,7 +12,7 @@ import Footer from './../components/footer'
 
 
 
-export default class Layout extends React.Component {
+class Layout extends React.Component {
 
   componentDidMount() {
     ReactGA.initialize('UA-21442306-1');
@@ -118,3 +119,5 @@ export default class Layout extends React.Component {
     )
   }
 }
+
+export default injectIntl(Layout);

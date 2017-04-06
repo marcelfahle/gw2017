@@ -1,0 +1,26 @@
+[
+  {
+    "id": "services.web.title",
+    "defaultMessage": "Website<br>Entwicklung"
+  },
+  {
+    "id": "services.web.copy",
+    "defaultMessage": "Zeigen Sie sich von Ihrer besten Seite: Gedankenwerk sorgt für beeindruckende Web-Auftritte – von Konzeption und Gestaltung bis hin zur Programmierung und Implementierung."
+  },
+  {
+    "id": "services.video.title",
+    "defaultMessage": "Video<br>Produktionen"
+  },
+  {
+    "id": "services.video.copy",
+    "defaultMessage": "So beeindruckt man Kunden heute: Gedankenwerk konzipiert und realisiert kreative Imagevideos, die Ihr Unternehmen oder Ihr Produkt fürs Web ins beste Licht rücken."
+  },
+  {
+    "id": "services.social.title",
+    "defaultMessage": "Social<br>Media"
+  },
+  {
+    "id": "services.social.copy",
+    "defaultMessage": "Kommen Sie schneller ins Gespräch – und zwar auf allen Kanälen: Gedankenwerk entwickelt SocialMedia-Strategien und relevanten Content, der Ihre Zielgruppen fesselt."
+  }
+]

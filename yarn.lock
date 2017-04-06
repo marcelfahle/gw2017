@@ -6,6 +6,13 @@ abbrev@1:
   version "1.1.0"
   resolved "https://registry.yarnpkg.com/abbrev/-/abbrev-1.1.0.tgz#d0554c2256636e2f56e7c2e5ad183f859428d81f"
 
+accepts@^1.3.3:
+  version "1.3.3"
+  resolved "https://registry.yarnpkg.com/accepts/-/accepts-1.3.3.tgz#c3ca7434938648c3e0d9c1e328dd68b622c284ca"
+  dependencies:
+    mime-types "~2.1.11"
+    negotiator "0.6.1"
+
 acorn-dynamic-import@^2.0.0:
   version "2.0.2"
   resolved "https://registry.yarnpkg.com/acorn-dynamic-import/-/acorn-dynamic-import-2.0.2.tgz#c752bd210bef679501b6c6cb7fc84f8f47158cc4"
@@ -336,6 +343,14 @@ babel-plugin-module-resolver@2.5.0:
     find-babel-config "^1.0.1"
     glob "^7.1.1"
     resolve "^1.2.0"
+
+babel-plugin-react-intl@^2.3.1:
+  version "2.3.1"
+  resolved "https://registry.yarnpkg.com/babel-plugin-react-intl/-/babel-plugin-react-intl-2.3.1.tgz#3d43912e824da005e08e8e8239d5ba784374bb00"
+  dependencies:
+    babel-runtime "^6.2.0"
+    intl-messageformat-parser "^1.2.0"
+    mkdirp "^0.5.1"
 
 babel-plugin-react-require@3.0.0:
   version "3.0.0"
@@ -706,7 +721,7 @@ babel-register@^6.24.0:
     mkdirp "^0.5.1"
     source-map-support "^0.4.2"
 
-babel-runtime@6.23.0, babel-runtime@^6.18.0, babel-runtime@^6.20.0, babel-runtime@^6.22.0:
+babel-runtime@6.23.0, babel-runtime@^6.18.0, babel-runtime@^6.2.0, babel-runtime@^6.20.0, babel-runtime@^6.22.0:
   version "6.23.0"
   resolved "https://registry.yarnpkg.com/babel-runtime/-/babel-runtime-6.23.0.tgz#0a9489f144de70efb3ce4300accdb329e2fc543b"
   dependencies:
@@ -760,11 +775,11 @@ babel-types@^6.19.0, babel-types@^6.21.0, babel-types@^6.22.0, babel-types@^6.23
     lodash "^4.2.0"
     to-fast-properties "^1.0.1"
 
-babylon@6.14.1:
+babylon@6.14.1, babylon@^6.11.0:
   version "6.14.1"
   resolved "https://registry.yarnpkg.com/babylon/-/babylon-6.14.1.tgz#956275fab72753ad9b3435d7afe58f8bf0a29815"
 
-babylon@^6.11.0, babylon@^6.15.0:
+babylon@^6.15.0:
   version "6.16.1"
   resolved "https://registry.yarnpkg.com/babylon/-/babylon-6.16.1.tgz#30c5a22f481978a9e7f8cdfdf496b11d94b404d3"
 
@@ -1021,13 +1036,9 @@ constants-browserify@^1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/constants-browserify/-/constants-browserify-1.0.0.tgz#c20b96d8c617748aaf1c16021760cd27fcb8cb75"
 
-convert-source-map@1.3.0:
+convert-source-map@1.3.0, convert-source-map@^1.1.0:
   version "1.3.0"
   resolved "https://registry.yarnpkg.com/convert-source-map/-/convert-source-map-1.3.0.tgz#e9f3e9c6e2728efc2676696a70eb382f73106a67"
-
-convert-source-map@^1.1.0:
-  version "1.5.0"
-  resolved "https://registry.yarnpkg.com/convert-source-map/-/convert-source-map-1.5.0.tgz#9acd70851c6d5dfdd93d9282e5edf94a03ff46b5"
 
 core-js@^1.0.0:
   version "1.2.7"
@@ -1743,7 +1754,31 @@ interpret@^1.0.0:
   version "1.0.2"
   resolved "https://registry.yarnpkg.com/interpret/-/interpret-1.0.2.tgz#f4f623f0bb7122f15f5717c8e254b8161b5c5b2d"
 
-invariant@^2.2.0:
+intl-format-cache@^2.0.5:
+  version "2.0.5"
+  resolved "https://registry.yarnpkg.com/intl-format-cache/-/intl-format-cache-2.0.5.tgz#b484cefcb9353f374f25de389a3ceea1af18d7c9"
+
+intl-messageformat-parser@1.2.0, intl-messageformat-parser@^1.2.0:
+  version "1.2.0"
+  resolved "https://registry.yarnpkg.com/intl-messageformat-parser/-/intl-messageformat-parser-1.2.0.tgz#5906b7f953ab7470e0dc8549097b648b991892ff"
+
+intl-messageformat@1.3.0, intl-messageformat@^1.3.0:
+  version "1.3.0"
+  resolved "https://registry.yarnpkg.com/intl-messageformat/-/intl-messageformat-1.3.0.tgz#f7d926aded7a3ab19b2dc601efd54e99a4bd4eae"
+  dependencies:
+    intl-messageformat-parser "1.2.0"
+
+intl-relativeformat@^1.3.0:
+  version "1.3.0"
+  resolved "https://registry.yarnpkg.com/intl-relativeformat/-/intl-relativeformat-1.3.0.tgz#893dc7076fccd380cf091a2300c380fa57ace45b"
+  dependencies:
+    intl-messageformat "1.3.0"
+
+intl@^1.2.5:
+  version "1.2.5"
+  resolved "https://registry.yarnpkg.com/intl/-/intl-1.2.5.tgz#82244a2190c4e419f8371f5aa34daa3420e2abde"
+
+invariant@^2.1.1, invariant@^2.2.0:
   version "2.2.2"
   resolved "https://registry.yarnpkg.com/invariant/-/invariant-2.2.2.tgz#9e1f56ac0acdb6bf303306f338be3b204ae60360"
   dependencies:
@@ -2088,7 +2123,7 @@ mime-db@~1.27.0:
   version "1.27.0"
   resolved "https://registry.yarnpkg.com/mime-db/-/mime-db-1.27.0.tgz#820f572296bbd20ec25ed55e5b5de869e5436eb1"
 
-mime-types@^2.1.12, mime-types@~2.1.7:
+mime-types@^2.1.12, mime-types@~2.1.11, mime-types@~2.1.7:
   version "2.1.15"
   resolved "https://registry.yarnpkg.com/mime-types/-/mime-types-2.1.15.tgz#a4ebf5064094569237b8cf70046776d09fc92aed"
   dependencies:
@@ -2182,6 +2217,10 @@ nearley@^2.7.7:
     nomnom "~1.6.2"
     railroad-diagrams "^1.0.0"
     randexp "^0.4.2"
+
+negotiator@0.6.1:
+  version "0.6.1"
+  resolved "https://registry.yarnpkg.com/negotiator/-/negotiator-0.6.1.tgz#2b327184e8992101177b28563fb5e7102acd0ca9"
 
 next@^2.0.0:
   version "2.0.0"
@@ -2649,6 +2688,15 @@ react-hot-loader@3.0.0-beta.6:
 react-infinite-scroller@^1.0.7:
   version "1.0.7"
   resolved "https://registry.yarnpkg.com/react-infinite-scroller/-/react-infinite-scroller-1.0.7.tgz#12e705148f8172891942a9ad6572fb2853df61a5"
+
+react-intl@^2.2.3:
+  version "2.2.3"
+  resolved "https://registry.yarnpkg.com/react-intl/-/react-intl-2.2.3.tgz#8eebb03cddc38b337ed22fab78037ab53a594270"
+  dependencies:
+    intl-format-cache "^2.0.5"
+    intl-messageformat "^1.3.0"
+    intl-relativeformat "^1.3.0"
+    invariant "^2.1.1"
 
 react-proxy@^3.0.0-alpha.0:
   version "3.0.0-alpha.1"

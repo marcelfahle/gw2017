@@ -1,4 +1,5 @@
 import styled from 'styled-components';
+import { FormattedHTMLMessage, FormattedMessage } from 'react-intl'
 
 
 const Green = styled.span`
@@ -93,31 +94,28 @@ export default () => (
     <Service>
       <img src="/static/services-websites@2x.png" alt="Website Entwicklung." />
       <ServiceTitle>
-        Website<br/>
-        Entwicklung<Green>.</Green>
+				<FormattedHTMLMessage id='services.web.title' defaultMessage='Website<br>Entwicklung' /><Green>.</Green>
       </ServiceTitle>
       <ServiceCopy>
-        Zeigen Sie sich von Ihrer besten Seite: Gedankenwerk sorgt für beeindruckende Web-Auftritte – von Konzeption und Gestaltung bis hin zur Programmierung und Implementierung.
+        <FormattedMessage id='services.web.copy' defaultMessage='Zeigen Sie sich von Ihrer besten Seite: Gedankenwerk sorgt für beeindruckende Web-Auftritte – von Konzeption und Gestaltung bis hin zur Programmierung und Implementierung.' />
       </ServiceCopy>
     </Service>
     <Service>
       <img src="/static/services-video@2x.png" alt="Video Produktion" />
       <ServiceTitle>
-        Video<br/>
-        Produktionen<Green>.</Green>
+				<FormattedHTMLMessage id='services.video.title' defaultMessage='Video<br>Produktionen' /><Green>.</Green>
       </ServiceTitle>
       <ServiceCopy>
-        So beeindruckt man Kunden heute: Gedankenwerk konzipiert und realisiert kreative Imagevideos, die Ihr Unternehmen oder Ihr Produkt fürs Web ins beste Licht rücken.
+        <FormattedMessage id='services.video.copy' defaultMessage='So beeindruckt man Kunden heute: Gedankenwerk konzipiert und realisiert kreative Imagevideos, die Ihr Unternehmen oder Ihr Produkt fürs Web ins beste Licht rücken.' />
       </ServiceCopy>
     </Service>
     <Service>
       <img src="/static/services-socialmedia@2x.png" alt="Social Media." />
       <ServiceTitle>
-        Social<br/>
-        Media<Green>.</Green>
+				<FormattedHTMLMessage id='services.social.title' defaultMessage='Social<br>Media' /><Green>.</Green>
       </ServiceTitle>
       <ServiceCopy>
-        Kommen Sie schneller ins Gespräch – und zwar auf allen Kanälen: Gedankenwerk entwickelt SocialMedia-Strategien und relevanten Content, der Ihre Zielgruppen fesselt.
+        <FormattedMessage id='services.social.copy' defaultMessage='Kommen Sie schneller ins Gespräch – und zwar auf allen Kanälen: Gedankenwerk entwickelt SocialMedia-Strategien und relevanten Content, der Ihre Zielgruppen fesselt.' />
       </ServiceCopy>
     </Service>
   </Services>

@@ -1,5 +1,7 @@
 import React from 'react';
 import styled from 'styled-components';
+import pageWithIntl from '../components/page_with_intl';
+import {FormattedMessage} from 'react-intl'
 
 import data from './../static/data.json';
 
@@ -108,7 +110,7 @@ const Stripes2 = styled.div`
 
 
 
-export default class Index extends React.Component {
+class Index extends React.Component {
 
   constructor( props ) {
     super( props ) 
@@ -178,10 +180,10 @@ export default class Index extends React.Component {
         <PageHeader>
           <PageTitle>
             <Green>Gedanken</Green>werk:<br/>
-            Ideen für die digitale Welt<Green>.</Green>
+            <FormattedMessage id='page_tagline' defaultMessage='IDEEN FÜR DIE DIGITALE WELT' /><Green>.</Green>
           </PageTitle>
           <Intro>
-            Wir lieben das Web. Und wir entwickeln für unsere Kunden, was das Web liebt: innovative Websites, professionelle Videos und ausgereiften Content für die Sozialen Medien. Das tun wir bei Gedankenwerk seit über 15 Jahren für große und kleine Unternehmen – und mit den passenden Spezialisten für jede Herausforderung. Sprechen Sie uns einfach an. Denn mit uns kann man reden.
+						<FormattedMessage id='page_intro' defaultMessage='Wir lieben das Web. Und wir entwickeln für unsere Kunden, was das Web liebt: innovative Websites, professionelle Videos und ausgereiften Content für die Sozialen Medien. Das tun wir bei Gedankenwerk seit über 15 Jahren für große und kleine Unternehmen – und mit den passenden Spezialisten für jede Herausforderung. Sprechen Sie uns einfach an. Denn mit uns kann man reden.' />
           </Intro>
         </PageHeader>
 
@@ -212,3 +214,5 @@ export default class Index extends React.Component {
     )
   }
 }
+
+export default pageWithIntl(Index);
