@@ -1,7 +1,8 @@
 import Green from './../components/green';
 import Layout from '../components/layout'
+import pageWithIntl from '../components/page_with_intl';
 
-export default () => (
+export default pageWithIntl (() => (
   <Layout>
 
     <div className="text-only">
@@ -89,7 +90,7 @@ export default () => (
     </div>
   </Layout>
 
-);
+));
 
 
 
