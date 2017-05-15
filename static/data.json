@@ -2,10 +2,10 @@
   "projects": [
     { 
       "type":"video",
-      "url":"https://www.youtube.com/watch?v=gZ72ueEykk8",
-      "img":"/static/project-htc.jpg",
+      "url":"https://www.youtube.com/watch?v=pYGUMBQ58RQ",
+      "img":"/static/project-samsungs8.jpg",
       "size":"4",
-      "title": "YOUTUBE CHANNEL:<br/>HTC U ULTRA"
+      "title": "YOUTUBE CHANNEL:<br/>Samsung Galaxy S8 Plus"
     },
     { 
       "type":"url",
@@ -15,21 +15,38 @@
       "title": "EUROPEAN AVIATION NETWORK"
     },
     { 
+      "type":"video",
+      "url":"https://www.youtube.com/watch?v=z3haPMjYzAQ",
+      "img":"/static/project-lg.jpg",
+      "size":"1",
+      "title": "YOUTUBE CHANNEL:<br/>LG 38“ Curved 21:9 Monitor"
+    },
+    { 
       "type":"url",
       "url":"http://cebit2016.gedankenwerk-hosting.com/",
       "img":"/static/project-smartideas.png",
       "size":"1",
       "title": "SMART IDEAS<br/>SMARTER BUSINESS"
     },
-    { 
-      "type":"video",
-      "url":"https://vimeo.com/197612108",
-      "img":"/static/project-eisbahn.png",
-      "size":"1",
-      "title": "ZECHE ZOLLVEREIN <br/>EISBAHN"
-    },
     { "type":"category",
       "title": "KREATIVE<br/>KONZEPTE"
+    },
+    { 
+      "type":"video",
+      "url":"https://www.youtube.com/watch?v=dtDUhWaZfYE",
+      "img":"/static/project-nintendo.jpg",
+      "size":"1",
+      "title": "Youtube Channel:<br/>Nintendo Switch"
+    },
+
+
+
+    { 
+      "type":"video",
+      "url":"https://www.youtube.com/watch?v=gZ72ueEykk8",
+      "img":"/static/project-htc.jpg",
+      "size":"1",
+      "title": "YouTube Channel<br/>HTC U Ultra"
     },
     { 
       "type":"url",
@@ -37,23 +54,6 @@
       "img":"/static/project-inflight.png",
       "size":"1",
       "title": "INFLIGHT WIRELESS<br/>CONNECTIVITY"
-    },
-
-
-
-    { 
-      "type":"video",
-      "url":"https://www.youtube.com/watch?v=fiauiSvVld0",
-      "img":"/static/project-razerblade.png",
-      "size":"1",
-      "title": "YOUTUBE CHANNEL:<br/>RAZER BLADE Pro"
-    },
-    { 
-      "type":"url",
-      "url":"https://internet-business-suite.com/de/home",
-      "img":"/static/project-ibs.png",
-      "size":"1",
-      "title": "TELEKOM INTERNET<br/>BUSINESS SUITE"
     },
 
     { 
@@ -69,20 +69,21 @@
     },
 
     { 
-      "type":"url",
-      "url":"http://mvno.telekom.net/",
-      "img":"/static/project-wholesale.png",
+      "type":"video",
+      "url":"https://www.youtube.com/watch?v=fiauiSvVld0",
+      "img":"/static/project-razerblade.png",
       "size":"1",
-      "title": "INTERNATIONAL<br/>MOBILE WHOLESALE"
+      "title": "YOUTUBE CHANNEL:<br/>RAZER BLADE Pro"
     },
 
 
-    { 
-      "type":"video",
-      "url":"https://vimeo.com/194934848",
-      "img":"/static/project-kokerei.png",
-      "size":"2",
-      "title": "ZECHE ZOLLVEREIN KOKEREI"
+
+    {
+      "type": "video",
+      "url": "https://vimeo.com/197612108",
+      "img": "/static/project-eisbahn.png",
+      "size": "2",
+      "title": "ZECHE ZOLLVEREIN <br/>EISBAHN"
     },
     { 
       "type":"video",
@@ -113,17 +114,17 @@
 
     { 
       "type":"video",
+      "url":"https://vimeo.com/194934848",
+      "img":"/static/project-kokerei.png",
+      "size":"1",
+      "title": "ZECHE ZOLLVEREIN KOKEREI"
+    },
+    { 
+      "type":"video",
       "url":"https://www.youtube.com/watch?v=fY2K17vyd4w",
       "img":"/static/project-macbookpro.png",
       "size":"1",
       "title": "YOUTUBE CHANNEL:<br/>MACBOOK PRO ZUBEHÖR"
-    },
-    { 
-      "type":"video",
-      "url":"https://www.youtube.com/watch?v=yr5TzWhZ4MA",
-      "img":"/static/project-amazonecho.png",
-      "size":"1",
-      "title": "YOUTUBE CHANNEL:<br/>Amazon Echo"
     },
     { 
       "type":"video",
@@ -158,22 +159,23 @@
       "size":"1",
       "title": "TELEKOM UMZUGSSERVICE"
     },
+
     { 
-      "type":"video",
-      "url":"https://www.youtube.com/watch?v=u_er9Okc7Ucs",
-      "img":"/static/project-lametric.png",
+      "type":"url",
+      "url":"http://mvno.telekom.net/",
+      "img":"/static/project-wholesale.png",
       "size":"1",
-      "title": "YOUTUBE CHANNEL:<br/>LAMETRIC TIME"
+      "title": "INTERNATIONAL<br/>MOBILE WHOLESALE"
     },
     { "type":"category",
       "title": "Support<br/>Videos"
     },
-    { 
-      "type":"url",
-      "url":"http://inflight.telekom.net/",
-      "img":"/static/project-inflight2.png",
-      "size":"1",
-      "title": "TELEKOM INFLIGHT"
+    {
+      "type": "url",
+      "url": "https://internet-business-suite.com/de/home",
+      "img": "/static/project-ibs.png",
+      "size": "1",
+      "title": "TELEKOM INTERNET<br/>BUSINESS SUITE"
     },
 
 
@@ -199,11 +201,11 @@
       "title": "HIFI PAWLAK"
     },
     { 
-      "type":"video",
-      "url":"https://www.youtube.com/watch?v=o30MYelLJlk",
-      "img":"/static/project-duet.png",
+      "type":"url",
+      "url":"http://inflight.telekom.net/",
+      "img":"/static/project-inflight2.png",
       "size":"1",
-      "title": "YOUTUBE CHANNEL:<br/>DUET DISPLAY FÜR IOS"
+      "title": "TELEKOM INFLIGHT"
     },
     { "type":"category",
       "title": "Youtube<br/>Channel"
