@@ -1,308 +1,297 @@
 {
-  "projects": [
-    { 
-      "type":"video",
-      "url":"https://www.youtube.com/watch?v=pYGUMBQ58RQ",
-      "img":"/static/project-samsungs8.jpg",
-      "size":"4",
-      "title": "YOUTUBE CHANNEL:<br/>Samsung Galaxy S8 Plus"
-    },
-    { 
-      "type":"url",
-      "url":"http://europeanaviationnetwork.com/",
-      "img":"/static/project-ean.png",
-      "size":"2",
-      "title": "EUROPEAN AVIATION NETWORK"
-    },
-    { 
-      "type":"video",
-      "url":"https://www.youtube.com/watch?v=z3haPMjYzAQ",
-      "img":"/static/project-lg.jpg",
-      "size":"1",
-      "title": "YOUTUBE CHANNEL:<br/>LG 38“ Curved 21:9 Monitor"
-    },
-    { 
-      "type":"url",
-      "url":"http://cebit2016.gedankenwerk-hosting.com/",
-      "img":"/static/project-smartideas.png",
-      "size":"1",
-      "title": "SMART IDEAS<br/>SMARTER BUSINESS"
-    },
-    { "type":"category",
-      "title": "KREATIVE<br/>KONZEPTE"
-    },
-    { 
-      "type":"video",
-      "url":"https://www.youtube.com/watch?v=dtDUhWaZfYE",
-      "img":"/static/project-nintendo.jpg",
-      "size":"1",
-      "title": "Youtube Channel:<br/>Nintendo Switch"
-    },
+	"projects": [
+		{
+			"type": "video",
+			"url": "https://vimeo.com/221903048",
+			"img": "/static/project-hoerstken.jpg",
+			"size": "4",
+			"title": "CORPORATE VIDEO:<br/>Hörstken's Gärten"
+		},
+		{
+			"type": "url",
+			"url": "http://europeanaviationnetwork.com/",
+			"img": "/static/project-ean.png",
+			"size": "2",
+			"title": "EUROPEAN AVIATION NETWORK"
+		},
+		{
+			"type": "video",
+			"url": "https://www.youtube.com/watch?v=6U-NOPPeerc",
+			"img": "/static/project-macpro.jpg",
+			"size": "1",
+			"title": "YOUTUBE CHANNEL:<br/>MAc Pro"
+		},
+		{
+			"type": "url",
+			"url": "http://cebit2016.gedankenwerk-hosting.com/",
+			"img": "/static/project-smartideas.png",
+			"size": "1",
+			"title": "SMART IDEAS<br/>SMARTER BUSINESS"
+		},
+		{
+			"type": "category",
+			"title": "KREATIVE<br/>KONZEPTE"
+		},
+		{
+			"type": "video",
+			"url": "https://www.youtube.com/watch?v=pYGUMBQ58RQ",
+			"img": "/static/project-samsungs8.jpg",
+			"size": "1",
+			"title": "YOUTUBE CHANNEL:<br/>Samsung Galaxy S8 Plus"
+		},
+		{
+			"type": "video",
+			"url": "https://www.youtube.com/watch?v=z3haPMjYzAQ",
+			"img": "/static/project-lg.jpg",
+			"size": "1",
+			"title": "YOUTUBE CHANNEL:<br/>LG 38“ Curved 21:9 Monitor"
+		},
+		{
+			"type": "url",
+			"url": "http://inflight-presentation.gedankenwerk-hosting.com/",
+			"img": "/static/project-inflight.png",
+			"size": "1",
+			"title": "INFLIGHT WIRELESS<br/>CONNECTIVITY"
+		},
+		{
+			"type": "url",
+			"url": "https://www.stollenhelden.de/",
+			"img": "/static/project-stollenhelden.png",
+			"size": "2",
+			"title": "Stollenhelden"
+		},
+		{
+			"type": "category",
+			"title": "Responsive<br/>Websites"
+		},
+		{
+			"type": "video",
+			"url": "https://www.youtube.com/watch?v=dtDUhWaZfYE",
+			"img": "/static/project-nintendo.jpg",
+			"size": "1",
+			"title": "Youtube Channel:<br/>Nintendo Switch"
+		},
 
-
-
-    { 
-      "type":"video",
-      "url":"https://www.youtube.com/watch?v=gZ72ueEykk8",
-      "img":"/static/project-htc.jpg",
-      "size":"1",
-      "title": "YouTube Channel<br/>HTC U Ultra"
-    },
-    { 
-      "type":"url",
-      "url":"http://inflight-presentation.gedankenwerk-hosting.com/",
-      "img":"/static/project-inflight.png",
-      "size":"1",
-      "title": "INFLIGHT WIRELESS<br/>CONNECTIVITY"
-    },
-
-    { 
-      "type":"url",
-      "url":"https://www.stollenhelden.de/",
-      "img":"/static/project-stollenhelden.png",
-      "size":"2",
-      "title": "Stollenhelden"
-    },
-
-    { "type":"category",
-      "title": "Responsive<br/>Websites"
-    },
-
-    { 
-      "type":"video",
-      "url":"https://www.youtube.com/watch?v=fiauiSvVld0",
-      "img":"/static/project-razerblade.png",
-      "size":"1",
-      "title": "YOUTUBE CHANNEL:<br/>RAZER BLADE Pro"
-    },
-
-
-
-    {
-      "type": "video",
-      "url": "https://vimeo.com/197612108",
-      "img": "/static/project-eisbahn.png",
-      "size": "2",
-      "title": "ZECHE ZOLLVEREIN <br/>EISBAHN"
-    },
-    { 
-      "type":"video",
-      "url":"https://vimeo.com/164551782/0065810230",
-      "img":"/static/project-fiber.png",
-      "size":"1",
-      "title": "Fiber to the home"
-    },
-    { 
-      "type":"url",
-      "url":"http://kunden.gedankenwerk.com/smart/Smart-City/preview/",
-      "img":"/static/project-smartcity.png",
-      "size":"1",
-      "title": "Smart City"
-    },
-    { "type":"category",
-      "title": "Produkt<br/>Videos"
-    },
-    { 
-      "type":"video",
-      "url":"https://vimeo.com/gedankenwerk/review/85516897/1a8099c7f9",
-      "img":"/static/project-mobileworkplace.png",
-      "size":"1",
-      "title": "Mobile Workplace"
-    },
-
-
-
-    { 
-      "type":"video",
-      "url":"https://vimeo.com/194934848",
-      "img":"/static/project-kokerei.png",
-      "size":"1",
-      "title": "ZECHE ZOLLVEREIN KOKEREI"
-    },
-    { 
-      "type":"video",
-      "url":"https://www.youtube.com/watch?v=fY2K17vyd4w",
-      "img":"/static/project-macbookpro.png",
-      "size":"1",
-      "title": "YOUTUBE CHANNEL:<br/>MACBOOK PRO ZUBEHÖR"
-    },
-    { 
-      "type":"video",
-      "url":"https://www.youtube.com/watch?v=uOxjgBA9wd4",
-      "img":"/static/project-huawei.jpg",
-      "size":"2",
-      "title": "YOUTUBE CHANNEL:<br/>HUAWEI MATE 9"
-    },
-    { "type":"category",
-      "title": "Facebook<br/>Videos"
-    },
-
-    { 
-      "type":"video",
-      "url":"https://www.youtube.com/watch?v=sbYH-1RTmBw",
-      "img":"/static/project-audeze.png",
-      "size":"1",
-      "title": "YOUTUBE CHANNEL:<br/>AUDEZE EL-8 TITANIUM"
-    },
-
-    { 
-      "type":"url",
-      "url":"http://kunden.gedankenwerk.com/Telekom_Digitale_Filiale/index.html",
-      "img":"/static/project-geschaeftskunden.jpg",
-      "size":"2",
-      "title": "GESCHÄFTSKUNDEN PRÄSENTATIONSTOOL"
-    },
-    { 
-      "type":"video",
-      "url":"https://vimeo.com/145406594/e10246896b",
-      "img":"/static/project-umzugsservice.png",
-      "size":"1",
-      "title": "TELEKOM UMZUGSSERVICE"
-    },
-
-    { 
-      "type":"url",
-      "url":"http://mvno.telekom.net/",
-      "img":"/static/project-wholesale.png",
-      "size":"1",
-      "title": "INTERNATIONAL<br/>MOBILE WHOLESALE"
-    },
-    { "type":"category",
-      "title": "Support<br/>Videos"
-    },
-    {
-      "type": "url",
-      "url": "https://internet-business-suite.com/de/home",
-      "img": "/static/project-ibs.png",
-      "size": "1",
-      "title": "TELEKOM INTERNET<br/>BUSINESS SUITE"
-    },
-
-
-    { 
-      "type":"nan",
-      "url":"",
-      "img":"/static/project-tventure.png",
-      "size":"1",
-      "title": "T-VENTURE WEBSITE"
-    },
-    { 
-      "type":"nan",
-      "url":"",
-      "img":"/static/project-techday.png",
-      "size":"1",
-      "title": "TELEKOM TECHDAY"
-    },
-    { 
-      "type":"url",
-      "url":"https://hifi-pawlak.de/",
-      "img":"/static/project-pawlak.png",
-      "size":"2",
-      "title": "HIFI PAWLAK"
-    },
-    { 
-      "type":"url",
-      "url":"http://inflight.telekom.net/",
-      "img":"/static/project-inflight2.png",
-      "size":"1",
-      "title": "TELEKOM INFLIGHT"
-    },
-    { "type":"category",
-      "title": "Youtube<br/>Channel"
-    },
-
-    { 
-      "type":"video",
-      "url":"https://www.youtube.com/watch?v=w8i5ZwhjCCI",
-      "img":"/static/project-macbookpro2.jpg",
-      "size":"2",
-      "title": "YOUTUBE CHANNEL:<br/>MACBOOK PRO 15“ MIT TOUCH BAR 2016"
-    },
-    { 
-      "type":"nan",
-      "url":"",
-      "img":"/static/project-fanmeile.png",
-      "size":"1",
-      "title": "FANMEILE BERLIN"
-    },
-    { 
-      "type":"nan",
-      "url":"",
-      "img":"/static/project-smart2.png",
-      "size":"1",
-      "title": "SMART KAMPAGNE<br/>STEVE APPLETON"
-    },
-    { 
-      "type":"video",
-      "url":"https://vimeo.com/gedankenwerk/review/61343382/ca6ede7e47",
-      "img":"/static/project-nokiax6.png",
-      "size":"1",
-      "title": "NOKIA X6 PRODUKTVIDEO"
-    },
-    { "type":"category",
-      "title": "Art<br/>Direction"
-    },
-
-    { 
-      "type":"url",
-      "url":"http://kunden.gedankenwerk.com/Telekom/produktshows2011/mediareceiver500sat/index.html",
-      "img":"/static/project-produktshows.png",
-      "size":"1",
-      "title": "3D PRODUKshows"
-    },
-    { 
-      "type":"url",
-      "url":"http://clintonharn.com",
-      "img":"/static/project-clinton.png",
-      "size":"1",
-      "title": "Clinton Harn"
-    },
-    { 
-      "type":"video",
-      "url":"https://vimeo.com/196893314",
-      "img":"/static/project-eisdisco.jpg",
-      "size":"2",
-      "title": "ZECHE ZOLLVEREIN EISDISCO"
-    },
-    { 
-      "type":"url",
-      "url":"http://kunden.gedankenwerk.com/Telekom/infoservice02/",
-      "img":"/static/project-infoservice.png",
-      "size":"1",
-      "title": "Telekom Infoservice"
-    },
-    { "type":"category",
-      "title": "Illustrationen"
-    },
-
-    { 
-      "type":"video",
-      "url":"https://vimeo.com/192439191",
-      "img":"/static/project-ruhrmuseum.jpg",
-      "size":"2",
-      "title": "ZECHE ZOLLVEREIN RUHR MUSEUM"
-    },
-    { "type":"category",
-      "title": "Beratung"
-    },
-    { 
-      "type":"url",
-      "url":"http://entertain.gedankenwerk-hosting.com/",
-      "img":"/static/project-entertain.png",
-      "size":"1",
-      "title": "ENTERTAIN INSTALLATION &<br/>VERKABELUNG"
-    },
-    { 
-      "type":"url",
-      "url":"http://www.telekom.de/de-mail",
-      "img":"/static/project-demail.png",
-      "size":"1",
-      "title": "DE-MAIL FILIALFINDER"
-    },
-    { "type":"category",
-      "title": "Mobile<br/>Websites"
-    }
-
-  ]
+		{
+			"type": "video",
+			"url": "https://www.youtube.com/watch?v=gZ72ueEykk8",
+			"img": "/static/project-htc.jpg",
+			"size": "2",
+			"title": "YouTube Channel<br/>HTC U Ultra"
+		},
+		{
+			"type": "video",
+			"url": "https://vimeo.com/164551782/0065810230",
+			"img": "/static/project-fiber.png",
+			"size": "1",
+			"title": "Fiber to the home"
+		},
+		{
+			"type": "url",
+			"url": "http://kunden.gedankenwerk.com/smart/Smart-City/preview/",
+			"img": "/static/project-smartcity.png",
+			"size": "1",
+			"title": "Smart City"
+		},
+		{
+			"type": "category",
+			"title": "Produkt<br/>Videos"
+		},
+		{
+			"type": "video",
+			"url": "https://vimeo.com/gedankenwerk/review/85516897/1a8099c7f9",
+			"img": "/static/project-mobileworkplace.png",
+			"size": "1",
+			"title": "Mobile Workplace"
+		},
+		{
+			"type": "video",
+			"url": "https://www.youtube.com/watch?v=fiauiSvVld0",
+			"img": "/static/project-razerblade.png",
+			"size": "1",
+			"title": "YOUTUBE CHANNEL:<br/>RAZER BLADE Pro"
+		},
+		{
+			"type": "video",
+			"url": "https://vimeo.com/194934848",
+			"img": "/static/project-kokerei.png",
+			"size": "1",
+			"title": "ZECHE ZOLLVEREIN KOKEREI"
+		},
+		{
+			"type": "video",
+			"url": "https://www.youtube.com/watch?v=uOxjgBA9wd4",
+			"img": "/static/project-huawei.jpg",
+			"size": "2",
+			"title": "YOUTUBE CHANNEL:<br/>HUAWEI MATE 9"
+		},
+		{
+			"type": "category",
+			"title": "Facebook<br/>Videos"
+		},
+		{
+			"type": "video",
+			"url": "https://www.youtube.com/watch?v=fY2K17vyd4w",
+			"img": "/static/project-macbookpro.png",
+			"size": "1",
+			"title": "YOUTUBE CHANNEL:<br/>MACBOOK PRO ZUBEHÖR"
+		},
+		{
+			"type": "url",
+			"url": "http://kunden.gedankenwerk.com/Telekom_Digitale_Filiale/index.html",
+			"img": "/static/project-geschaeftskunden.jpg",
+			"size": "2",
+			"title": "GESCHÄFTSKUNDEN PRÄSENTATIONSTOOL"
+		},
+		{
+			"type": "video",
+			"url": "https://vimeo.com/145406594/e10246896b",
+			"img": "/static/project-umzugsservice.png",
+			"size": "1",
+			"title": "TELEKOM UMZUGSSERVICE"
+		},
+		{
+			"type": "url",
+			"url": "http://mvno.telekom.net/",
+			"img": "/static/project-wholesale.png",
+			"size": "1",
+			"title": "INTERNATIONAL<br/>MOBILE WHOLESALE"
+		},
+		{
+			"type": "category",
+			"title": "Support<br/>Videos"
+		},
+		{
+			"type": "url",
+			"url": "https://internet-business-suite.com/de/home",
+			"img": "/static/project-ibs.png",
+			"size": "1",
+			"title": "TELEKOM INTERNET<br/>BUSINESS SUITE"
+		},
+		{
+			"type": "nan",
+			"url": "",
+			"img": "/static/project-tventure.png",
+			"size": "1",
+			"title": "T-VENTURE WEBSITE"
+		},
+		{
+			"type": "nan",
+			"url": "",
+			"img": "/static/project-techday.png",
+			"size": "1",
+			"title": "TELEKOM TECHDAY"
+		},
+		{
+			"type": "url",
+			"url": "https://hifi-pawlak.de/",
+			"img": "/static/project-pawlak.png",
+			"size": "2",
+			"title": "HIFI PAWLAK"
+		},
+		{
+			"type": "url",
+			"url": "http://inflight.telekom.net/",
+			"img": "/static/project-inflight2.png",
+			"size": "1",
+			"title": "TELEKOM INFLIGHT"
+		},
+		{
+			"type": "category",
+			"title": "Youtube<br/>Channel"
+		},
+		{
+			"type": "video",
+			"url": "https://vimeo.com/197612108",
+			"img": "/static/project-eisbahn.png",
+			"size": "2",
+			"title": "ZECHE ZOLLVEREIN <br/>EISBAHN"
+		},
+		{
+			"type": "nan",
+			"url": "",
+			"img": "/static/project-fanmeile.png",
+			"size": "1",
+			"title": "FANMEILE BERLIN"
+		},
+		{
+			"type": "nan",
+			"url": "",
+			"img": "/static/project-smart2.png",
+			"size": "1",
+			"title": "SMART KAMPAGNE<br/>STEVE APPLETON"
+		},
+		{
+			"type": "video",
+			"url": "https://vimeo.com/gedankenwerk/review/61343382/ca6ede7e47",
+			"img": "/static/project-nokiax6.png",
+			"size": "1",
+			"title": "NOKIA X6 PRODUKTVIDEO"
+		},
+		{
+			"type": "category",
+			"title": "Art<br/>Direction"
+		},
+		{
+			"type": "video",
+			"url": "https://www.youtube.com/watch?v=sbYH-1RTmBw",
+			"img": "/static/project-audeze.png",
+			"size": "1",
+			"title": "YOUTUBE CHANNEL:<br/>AUDEZE EL-8 TITANIUM"
+		},
+		{
+			"type": "url",
+			"url": "http://clintonharn.com",
+			"img": "/static/project-clinton.png",
+			"size": "1",
+			"title": "Clinton Harn"
+		},
+		{
+			"type": "video",
+			"url": "https://www.youtube.com/watch?v=w8i5ZwhjCCI",
+			"img": "/static/project-macbookpro2.jpg",
+			"size": "2",
+			"title": "YOUTUBE CHANNEL:<br/>MACBOOK PRO 15“ MIT TOUCH BAR 2016"
+		},
+		{
+			"type": "url",
+			"url": "http://kunden.gedankenwerk.com/Telekom/infoservice02/",
+			"img": "/static/project-infoservice.png",
+			"size": "1",
+			"title": "Telekom Infoservice"
+		},
+		{
+			"type": "category",
+			"title": "Illustrationen"
+		},
+		{
+			"type": "video",
+			"url": "https://vimeo.com/196893314",
+			"img": "/static/project-eisdisco.jpg",
+			"size": "2",
+			"title": "ZECHE ZOLLVEREIN EISDISCO"
+		},
+		{
+			"type": "category",
+			"title": "Beratung"
+		},
+		{
+			"type": "url",
+			"url": "http://entertain.gedankenwerk-hosting.com/",
+			"img": "/static/project-entertain.png",
+			"size": "1",
+			"title": "ENTERTAIN INSTALLATION &<br/>VERKABELUNG"
+		},
+		{
+			"type": "video",
+			"url": "https://vimeo.com/192439191",
+			"img": "/static/project-ruhrmuseum.jpg",
+			"size": "1",
+			"title": "ZECHE ZOLLVEREIN RUHR MUSEUM"
+		},
+		{
+			"type": "category",
+			"title": "Mobile<br/>Websites"
+		}
+	]
 }
-
