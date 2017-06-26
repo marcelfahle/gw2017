@@ -16,10 +16,10 @@
 		},
 		{
 			"type": "video",
-			"url": "https://www.youtube.com/watch?v=6U-NOPPeerc",
-			"img": "/static/project-macpro.jpg",
+			"url": "https://www.youtube.com/watch?v=zp5hnzWPydw",
+			"img": "/static/project-segway.jpg",
 			"size": "1",
-			"title": "YOUTUBE CHANNEL:<br/>MAc Pro"
+			"title": "YOUTUBE CHANNEL:<br/>NINEBOT MINI PRO"
 		},
 		{
 			"type": "url",
@@ -32,19 +32,21 @@
 			"type": "category",
 			"title": "KREATIVE<br/>KONZEPTE"
 		},
+
+		{
+			"type": "video",
+			"url": "https://www.youtube.com/watch?v=6U-NOPPeerc",
+			"img": "/static/project-macpro.jpg",
+			"size": "1",
+			"title": "YOUTUBE CHANNEL:<br/>MAc Pro"
+		},
+
 		{
 			"type": "video",
 			"url": "https://www.youtube.com/watch?v=pYGUMBQ58RQ",
 			"img": "/static/project-samsungs8.jpg",
 			"size": "1",
 			"title": "YOUTUBE CHANNEL:<br/>Samsung Galaxy S8 Plus"
-		},
-		{
-			"type": "video",
-			"url": "https://www.youtube.com/watch?v=z3haPMjYzAQ",
-			"img": "/static/project-lg.jpg",
-			"size": "1",
-			"title": "YOUTUBE CHANNEL:<br/>LG 38“ Curved 21:9 Monitor"
 		},
 		{
 			"type": "url",
@@ -64,20 +66,22 @@
 			"type": "category",
 			"title": "Responsive<br/>Websites"
 		},
+
+		{
+			"type": "video",
+			"url": "https://www.youtube.com/watch?v=z3haPMjYzAQ",
+			"img": "/static/project-lg.jpg",
+			"size": "1",
+			"title": "YOUTUBE CHANNEL:<br/>LG 38“ Curved 21:9 Monitor"
+		},
+
+
 		{
 			"type": "video",
 			"url": "https://www.youtube.com/watch?v=dtDUhWaZfYE",
 			"img": "/static/project-nintendo.jpg",
-			"size": "1",
-			"title": "Youtube Channel:<br/>Nintendo Switch"
-		},
-
-		{
-			"type": "video",
-			"url": "https://www.youtube.com/watch?v=gZ72ueEykk8",
-			"img": "/static/project-htc.jpg",
 			"size": "2",
-			"title": "YouTube Channel<br/>HTC U Ultra"
+			"title": "Youtube Channel:<br/>Nintendo Switch"
 		},
 		{
 			"type": "video",
@@ -106,6 +110,13 @@
 		},
 		{
 			"type": "video",
+			"url": "https://www.youtube.com/watch?v=gZ72ueEykk8",
+			"img": "/static/project-htc.jpg",
+			"size": "1",
+			"title": "YouTube Channel<br/>HTC U Ultra"
+		},
+		{
+			"type": "video",
 			"url": "https://www.youtube.com/watch?v=fiauiSvVld0",
 			"img": "/static/project-razerblade.png",
 			"size": "1",
@@ -115,26 +126,19 @@
 			"type": "video",
 			"url": "https://vimeo.com/194934848",
 			"img": "/static/project-kokerei.png",
-			"size": "1",
-			"title": "ZECHE ZOLLVEREIN KOKEREI"
-		},
-		{
-			"type": "video",
-			"url": "https://www.youtube.com/watch?v=uOxjgBA9wd4",
-			"img": "/static/project-huawei.jpg",
 			"size": "2",
-			"title": "YOUTUBE CHANNEL:<br/>HUAWEI MATE 9"
+			"title": "ZECHE ZOLLVEREIN KOKEREI"
 		},
 		{
 			"type": "category",
 			"title": "Facebook<br/>Videos"
 		},
-		{
+{
 			"type": "video",
-			"url": "https://www.youtube.com/watch?v=fY2K17vyd4w",
-			"img": "/static/project-macbookpro.png",
+			"url": "https://www.youtube.com/watch?v=uOxjgBA9wd4",
+			"img": "/static/project-huawei.jpg",
 			"size": "1",
-			"title": "YOUTUBE CHANNEL:<br/>MACBOOK PRO ZUBEHÖR"
+			"title": "YOUTUBE CHANNEL:<br/>HUAWEI MATE 9"
 		},
 		{
 			"type": "url",
