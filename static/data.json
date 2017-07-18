@@ -2,17 +2,17 @@
 	"projects": [
 		{
 			"type": "video",
-			"url": "https://vimeo.com/221903048",
-			"img": "/static/project-hoerstken.jpg",
+			"url": "https://vimeo.com/225648713",
+			"img": "/static/project-ledermanufaktur.jpg",
 			"size": "4",
-			"title": "CORPORATE VIDEO:<br/>Hörstken's Gärten"
+			"title": "CORPORATE VIDEO:<br/>Mays Berlin - Ledermanufaktur"
 		},
 		{
-			"type": "url",
-			"url": "http://europeanaviationnetwork.com/",
-			"img": "/static/project-ean.png",
+			"type": "video",
+			"url": "https://vimeo.com/221903048",
+			"img": "/static/project-hoerstken.jpg",
 			"size": "2",
-			"title": "EUROPEAN AVIATION NETWORK"
+			"title": "CORPORATE VIDEO:<br/>Hörstken's Gärten"
 		},
 		{
 			"type": "video",
@@ -57,10 +57,10 @@
 		},
 		{
 			"type": "url",
-			"url": "https://www.stollenhelden.de/",
-			"img": "/static/project-stollenhelden.png",
+			"url": "http://europeanaviationnetwork.com/",
+			"img": "/static/project-ean.png",
 			"size": "2",
-			"title": "Stollenhelden"
+			"title": "EUROPEAN AVIATION NETWORK"
 		},
 		{
 			"type": "category",
@@ -77,11 +77,11 @@
 
 
 		{
-			"type": "video",
-			"url": "https://www.youtube.com/watch?v=dtDUhWaZfYE",
-			"img": "/static/project-nintendo.jpg",
+			"type": "url",
+			"url": "https://www.stollenhelden.de/",
+			"img": "/static/project-stollenhelden.png",
 			"size": "2",
-			"title": "Youtube Channel:<br/>Nintendo Switch"
+			"title": "Stollenhelden"
 		},
 		{
 			"type": "video",
@@ -149,10 +149,10 @@
 		},
 		{
 			"type": "video",
-			"url": "https://vimeo.com/145406594/e10246896b",
-			"img": "/static/project-umzugsservice.png",
+			"url": "https://www.youtube.com/watch?v=dtDUhWaZfYE",
+			"img": "/static/project-nintendo.jpg",
 			"size": "1",
-			"title": "TELEKOM UMZUGSSERVICE"
+			"title": "Youtube Channel:<br/>Nintendo Switch"
 		},
 		{
 			"type": "url",
@@ -227,10 +227,10 @@
 		},
 		{
 			"type": "video",
-			"url": "https://vimeo.com/gedankenwerk/review/61343382/ca6ede7e47",
-			"img": "/static/project-nokiax6.png",
+			"url": "https://vimeo.com/145406594/e10246896b",
+			"img": "/static/project-umzugsservice.png",
 			"size": "1",
-			"title": "NOKIA X6 PRODUKTVIDEO"
+			"title": "TELEKOM UMZUGSSERVICE"
 		},
 		{
 			"type": "category",
@@ -288,10 +288,10 @@
 		},
 		{
 			"type": "video",
-			"url": "https://vimeo.com/192439191",
-			"img": "/static/project-ruhrmuseum.jpg",
+			"url": "https://vimeo.com/gedankenwerk/review/61343382/ca6ede7e47",
+			"img": "/static/project-nokiax6.png",
 			"size": "1",
-			"title": "ZECHE ZOLLVEREIN RUHR MUSEUM"
+			"title": "NOKIA X6 PRODUKTVIDEO"
 		},
 		{
 			"type": "category",
