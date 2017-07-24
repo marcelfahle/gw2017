@@ -2,17 +2,17 @@
 	"projects": [
 		{
 			"type": "video",
-			"url": "https://vimeo.com/225648713",
-			"img": "/static/project-ledermanufaktur.jpg",
+			"url": "https://vimeo.com/226290147",
+			"img": "/static/project-pawlak2.jpg",
 			"size": "4",
-			"title": "CORPORATE VIDEO:<br/>Mays Berlin - Ledermanufaktur"
+			"title": "CORPORATE VIDEO:<br/>Hifi-Pawlak"
 		},
 		{
 			"type": "video",
-			"url": "https://vimeo.com/221903048",
-			"img": "/static/project-hoerstken.jpg",
+			"url": "https://vimeo.com/225648713",
+			"img": "/static/project-ledermanufaktur.jpg",
 			"size": "2",
-			"title": "CORPORATE VIDEO:<br/>Hörstken's Gärten"
+			"title": "CORPORATE VIDEO:<br/>Mays Berlin - Ledermanufaktur"
 		},
 		{
 			"type": "video",
@@ -56,11 +56,11 @@
 			"title": "INFLIGHT WIRELESS<br/>CONNECTIVITY"
 		},
 		{
-			"type": "url",
-			"url": "http://europeanaviationnetwork.com/",
-			"img": "/static/project-ean.png",
+			"type": "video",
+			"url": "https://vimeo.com/221903048",
+			"img": "/static/project-hoerstken.jpg",
 			"size": "2",
-			"title": "EUROPEAN AVIATION NETWORK"
+			"title": "CORPORATE VIDEO:<br/>Hörstken's Gärten"
 		},
 		{
 			"type": "category",
@@ -78,10 +78,10 @@
 
 		{
 			"type": "url",
-			"url": "https://www.stollenhelden.de/",
-			"img": "/static/project-stollenhelden.png",
+			"url": "http://europeanaviationnetwork.com/",
+			"img": "/static/project-ean.png",
 			"size": "2",
-			"title": "Stollenhelden"
+			"title": "EUROPEAN AVIATION NETWORK"
 		},
 		{
 			"type": "video",
@@ -123,11 +123,11 @@
 			"title": "YOUTUBE CHANNEL:<br/>RAZER BLADE Pro"
 		},
 		{
-			"type": "video",
-			"url": "https://vimeo.com/194934848",
-			"img": "/static/project-kokerei.png",
+			"type": "url",
+			"url": "https://www.stollenhelden.de/",
+			"img": "/static/project-stollenhelden.png",
 			"size": "2",
-			"title": "ZECHE ZOLLVEREIN KOKEREI"
+			"title": "Stollenhelden"
 		},
 		{
 			"type": "category",
@@ -141,11 +141,11 @@
 			"title": "YOUTUBE CHANNEL:<br/>HUAWEI MATE 9"
 		},
 		{
-			"type": "url",
-			"url": "http://kunden.gedankenwerk.com/Telekom_Digitale_Filiale/index.html",
-			"img": "/static/project-geschaeftskunden.jpg",
+			"type": "video",
+			"url": "https://vimeo.com/194934848",
+			"img": "/static/project-kokerei.png",
 			"size": "2",
-			"title": "GESCHÄFTSKUNDEN PRÄSENTATIONSTOOL"
+			"title": "ZECHE ZOLLVEREIN KOKEREI"
 		},
 		{
 			"type": "video",
@@ -188,10 +188,10 @@
 		},
 		{
 			"type": "url",
-			"url": "https://hifi-pawlak.de/",
-			"img": "/static/project-pawlak.png",
+			"url": "http://kunden.gedankenwerk.com/Telekom_Digitale_Filiale/index.html",
+			"img": "/static/project-geschaeftskunden.jpg",
 			"size": "2",
-			"title": "HIFI PAWLAK"
+			"title": "GESCHÄFTSKUNDEN PRÄSENTATIONSTOOL"
 		},
 		{
 			"type": "url",
@@ -205,11 +205,11 @@
 			"title": "Youtube<br/>Channel"
 		},
 		{
-			"type": "video",
-			"url": "https://vimeo.com/197612108",
-			"img": "/static/project-eisbahn.png",
+			"type": "url",
+			"url": "https://hifi-pawlak.de/",
+			"img": "/static/project-pawlak.png",
 			"size": "2",
-			"title": "ZECHE ZOLLVEREIN <br/>EISBAHN"
+			"title": "HIFI PAWLAK"
 		},
 		{
 			"type": "nan",
@@ -252,10 +252,10 @@
 		},
 		{
 			"type": "video",
-			"url": "https://www.youtube.com/watch?v=w8i5ZwhjCCI",
-			"img": "/static/project-macbookpro2.jpg",
+			"url": "https://vimeo.com/197612108",
+			"img": "/static/project-eisbahn.png",
 			"size": "2",
-			"title": "YOUTUBE CHANNEL:<br/>MACBOOK PRO 15“ MIT TOUCH BAR 2016"
+			"title": "ZECHE ZOLLVEREIN <br/>EISBAHN"
 		},
 		{
 			"type": "url",
@@ -270,10 +270,10 @@
 		},
 		{
 			"type": "video",
-			"url": "https://vimeo.com/196893314",
-			"img": "/static/project-eisdisco.jpg",
+			"url": "https://www.youtube.com/watch?v=w8i5ZwhjCCI",
+			"img": "/static/project-macbookpro2.jpg",
 			"size": "2",
-			"title": "ZECHE ZOLLVEREIN EISDISCO"
+			"title": "YOUTUBE CHANNEL:<br/>MACBOOK PRO 15“ MIT TOUCH BAR 2016"
 		},
 		{
 			"type": "category",
