@@ -88,11 +88,7 @@ export default () =>
   <Services>
     <Stripes1 />
     <Service>
-      <img
-        style={{ marginTop: "-200px" }}
-        src="/static/services-websites@2x.png"
-        alt="Website Entwicklung."
-      />
+      <img src="/static/services-websites@2x.png" alt="Website Entwicklung." />
       <ServiceTitle>
         <FormattedHTMLMessage
           id="services.web.title"
