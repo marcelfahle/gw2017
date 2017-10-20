@@ -2,24 +2,31 @@
 	"projects": [
 		{
 			"type": "video",
-			"url": "https://vimeo.com/233954894",
-			"img": "/static/project-folkwang.jpg",
+			"url": "https://vimeo.com/237192469",
+			"img": "/static/project-kabue.jpg",
 			"size": "4",
-			"title": "Folkwang Kammerorchester Essen<br/>Saisonstart 2017"
+			"title": "Corporate Video<br/>KaBü ANNA RÜ"
 		},
 		{
 			"type": "video",
-			"url": "https://vimeo.com/226290147",
-			"img": "/static/project-pawlak2.jpg",
-			"size": "2",
-			"title": "CORPORATE VIDEO:<br/>Hifi-Pawlak"
+			"url": "https://www.youtube.com/watch?v=CKUzYWfMCNs&feature=youtu.be",
+			"img": "/static/project-kamrad.jpg",
+			"size": "4",
+			"title": "Musik Video<br/>Tim Kamrad - Ruin Me"
 		},
 		{
 			"type": "video",
-			"url": "https://vimeo.com/221903048",
-			"img": "/static/project-hoerstken.jpg",
+			"url": "https://vimeo.com/231114292",
+			"img": "/static/project-hugenpoet.jpg",
+			"size": "4",
+			"title": "Schlosshotel Hugenpoet<br/>Tag der offenen Tür"
+		},
+		{
+			"type": "video",
+			"url": "https://www.youtube.com/watch?v=EkeVTWSLsbE&feature=youtu.be",
+			"img": "/static/project-red.jpg",
 			"size": "1",
-			"title": "CORPORATE VIDEO:<br/>Hörstken's Gärten"
+			"title": "YouTube Channel<br/>RED SCARLET-W REVIEW Teil 2"
 		},
 		{
 			"type": "url",
@@ -29,16 +36,62 @@
 			"title": "SMART IDEAS<br/>SMARTER BUSINESS"
 		},
 		{
+			"type": "video",
+			"url": "https://vimeo.com/238180959",
+			"img": "/static/project-folkwang2.jpg",
+			"size": "2",
+			"title": "Folkwang Kammerorchester Essen<br/>ExtraKlang I - Von Göttern und Sagen - Ankündigung"
+		},
+		{
+			"type": "video",
+			"url": "https://www.youtube.com/watch?v=O98RcLKGT3E",
+			"img": "/static/project-moto.jpg",
+			"size": "1",
+			"title": "YouTube Channel<br/>Moto Z2 Play und Moto Mods"
+		},
+		{
+			"type": "video",
+			"url": "https://www.youtube.com/watch?v=gF7G6Oha7Cs&feature=youtu.be",
+			"img": "/static/project-imagefilm.jpg",
+			"size": "1",
+			"title": "Behind the scenes<br/>So entsteht ein Imagefilm"
+		},
+
+
+
+
+		{
+			"type": "video",
+			"url": "https://vimeo.com/221903048",
+			"img": "/static/project-hoerstken.jpg",
+			"size": "1",
+			"title": "CORPORATE VIDEO:<br/>Hörstken's Gärten"
+		},
+		{
+			"type": "video",
+			"url": "https://vimeo.com/232815776",
+			"img": "/static/project-pilgrim.jpg",
+			"size": "1",
+			"title": "Corporate Video<br/>Pilgrim - Recruiting"
+		},
+		{
+			"type": "video",
+			"url": "https://vimeo.com/226290147",
+			"img": "/static/project-pawlak2.jpg",
+			"size": "2",
+			"title": "CORPORATE VIDEO:<br/>Hifi-Pawlak"
+		},
+		{
 			"type": "category",
 			"title": "KREATIVE<br/>KONZEPTE"
 		},
 
 		{
 			"type": "video",
-			"url": "https://www.youtube.com/watch?v=EkeVTWSLsbE&feature=youtu.be",
-			"img": "/static/project-red.jpg",
+			"url": "https://www.youtube.com/watch?v=HfgZ-tYUUaA",
+			"img": "/static/project-red1.jpg",
 			"size": "1",
-			"title": "YouTube Channel<br/>RED SCARLET-W REVIEW"
+			"title": "YouTube Channel<br/>RED SCARLET-W REVIEW Teil 1"
 		},
 
 		{
@@ -135,10 +188,10 @@
 		},
 		{
 			"type": "video",
-			"url": "https://www.youtube.com/watch?v=z3haPMjYzAQ",
-			"img": "/static/project-lg.jpg",
+			"url": "https://vimeo.com/233954894",
+			"img": "/static/project-folkwang.jpg",
 			"size": "1",
-			"title": "YOUTUBE CHANNEL:<br/>LG 38“ Curved 21:9 Monitor"
+			"title": "Folkwang Kammerorchester Essen<br/>Saisonstart 2017"
 		},
 		{
 			"type": "video",
