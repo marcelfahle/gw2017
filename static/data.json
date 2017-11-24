@@ -19,13 +19,13 @@
       "url": "https://www.youtube.com/watch?v=CKUzYWfMCNs&feature=youtu.be",
       "img": "/static/project-kamrad.jpg",
       "size": "2",
-      "title": "Musik Video<br/>Tim Kamrad - Ruin Me"
+      "title": "Musikvideo<br/>Tim Kamrad - Ruin Me"
     },
 
     {
       "type": "video",
       "url": "https://vimeo.com/240024792",
-      "img": "/static/project-folkwang2.jpg",
+      "img": "/static/project-extraklang.jpg",
       "size": "1",
       "title":
         "Folkwang Kammerorchester Essen<br/>ExtraKlang I - Von Göttern und Sagen "
@@ -129,6 +129,21 @@
     },
 
     {
+      "type": "video",
+      "url": "https://www.youtube.com/watch?v=xmJZ5QuHMgE&feature=youtu.be",
+      "img": "/static/project-music-toseland.png",
+      "size": "2",
+      "title": "Musikvideo:<br/>Toseland - We'll Stop At Nothing"
+    },
+    {
+      "type": "video",
+      "url": "https://www.youtube.com/watch?v=d08HU0LzrmY&feature=youtu.be",
+      "img": "/static/project-music-ghosts.png",
+      "size": "2",
+      "title": "Musikvideo:<br/>To the Rats and Wolves - Ghosts"
+    },
+
+    {
       "type": "url",
       "url": "http://europeanaviationnetwork.com/",
       "img": "/static/project-ean.png",
@@ -195,31 +210,17 @@
 
     {
       "type": "video",
-      "url": "https://www.youtube.com/watch?v=xmJZ5QuHMgE&feature=youtu.be",
-      "img": "/static/project-music-toseland.png",
-      "size": "2",
-      "title": "Music Video:<br/>Toseland - We'll Stop At Nothing"
-    },
-    {
-      "type": "video",
-      "url": "https://www.youtube.com/watch?v=d08HU0LzrmY&feature=youtu.be",
-      "img": "/static/project-music-ghosts.png",
-      "size": "2",
-      "title": "Music Video:<br/>To the Rats and Wolves - Ghosts"
-    },
-    {
-      "type": "video",
       "url": "https://www.youtube.com/watch?v=xk6zL8597dw&feature=youtu.be",
       "img": "/static/project-music-paralyzed.png",
       "size": "2",
-      "title": "Music Video:<br/>CALIBAN - Paralyzed"
+      "title": "Musikvideo:<br/>CALIBAN - Paralyzed"
     },
     {
       "type": "video",
       "url": "https://www.youtube.com/watch?v=g8ZDWLSPUFo&feature=youtu.be",
       "img": "/static/project-music-kaerbholz.png",
       "size": "2",
-      "title": "Music Video:<br/>KÄRBHOLZ - Ich kann es nicht ändern"
+      "title": "Musikvideo:<br/>KÄRBHOLZ - Ich kann es nicht ändern"
     },
 
     {

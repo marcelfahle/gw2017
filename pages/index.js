@@ -1,13 +1,13 @@
-import React from "react";
-import styled from "styled-components";
-import pageWithIntl from "../components/page_with_intl";
-import { FormattedMessage } from "react-intl";
+import React from 'react';
+import styled from 'styled-components';
+import pageWithIntl from '../components/page_with_intl';
+import { FormattedMessage } from 'react-intl';
 
-import data from "./../static/data.json";
+import data from './../static/data.json';
 
-import Layout from "../components/layout";
-import Projects from "../components/projects";
-import Services from "../components/services";
+import Layout from '../components/layout';
+import Projects from '../components/projects';
+import Services from '../components/services';
 
 const PageHeader = styled.div`
   text-align: center;
@@ -73,7 +73,9 @@ const Intro = styled.p`
     max-width: 50%;
   }
 `;
-const Green = styled.span`color: #51ed06;`;
+const Green = styled.span`
+  color: #51ed06;
+`;
 
 const LoadMoreButton = styled.a`
   color: white;
@@ -109,25 +111,25 @@ class Index extends React.Component {
     this.state = {
       loadedOnce: true,
       projectsNum: 52,
-      totalProjectsNum: data.projects.length
+      totalProjectsNum: data.projects.length,
     };
 
     this.handleScroll = this.handleScroll.bind(this);
   }
 
   componentDidMount() {
-    window.addEventListener("scroll", this.handleScroll);
+    window.addEventListener('scroll', this.handleScroll);
   }
 
   componentWillUnmount() {
-    window.removeEventListener("scroll", this.handleScroll);
+    window.removeEventListener('scroll', this.handleScroll);
   }
 
   showMoreProjects(e) {
     e.preventDefault();
     this.setState({
       projectsNum: this.state.projectsNum + 5,
-      loadedOnce: true
+      loadedOnce: true,
     });
   }
 
@@ -147,7 +149,7 @@ class Index extends React.Component {
 
   handleScroll() {
     const windowHeight =
-      "innerHeight" in window
+      'innerHeight' in window
         ? window.innerHeight
         : document.documentElement.offsetHeight;
     const body = document.body;
@@ -199,7 +201,7 @@ class Index extends React.Component {
 
         <Projects projects={projects} projectsNum={this.state.projectsNum} />
 
-        {!this.state.loadedOnce ? this.loadMoreButton() : ""}
+        {!this.state.loadedOnce ? this.loadMoreButton() : ''}
       </Layout>
     );
   }

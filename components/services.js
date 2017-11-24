@@ -1,7 +1,9 @@
-import styled from "styled-components";
-import { FormattedHTMLMessage, FormattedMessage } from "react-intl";
+import styled from 'styled-components';
+import { FormattedHTMLMessage, FormattedMessage } from 'react-intl';
 
-const Green = styled.span`color: #51ed06;`;
+const Green = styled.span`
+  color: #51ed06;
+`;
 const Services = styled.ul`
   position: relative;
   list-style: none;
@@ -84,7 +86,7 @@ const Stripes1 = styled.div`
   }
 `;
 
-export default () =>
+export default () => (
   <Services>
     <Stripes1 />
     <Service>
@@ -104,11 +106,11 @@ export default () =>
       </ServiceCopy>
     </Service>
     <Service>
-      <img src="/static/services-video@2x.png" alt="Video Produktion" />
+      <img src="/static/services-video@2x.png" alt="Video & Foto Produktion" />
       <ServiceTitle>
         <FormattedHTMLMessage
           id="services.video.title"
-          defaultMessage="Video<br>Produktionen"
+          defaultMessage="Video & Foto<br>Produktion"
         />
         <Green>.</Green>
       </ServiceTitle>
@@ -135,4 +137,5 @@ export default () =>
         />
       </ServiceCopy>
     </Service>
-  </Services>;
+  </Services>
+);
