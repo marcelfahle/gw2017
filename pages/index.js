@@ -1,7 +1,7 @@
 import React from 'react';
 import styled from 'styled-components';
 import pageWithIntl from '../components/page_with_intl';
-import { FormattedMessage } from 'react-intl';
+import {FormattedMessage} from 'react-intl';
 
 import data from './../static/data.json';
 
@@ -139,9 +139,8 @@ class Index extends React.Component {
         <LoadMoreButton
           rel="noopener"
           href="#"
-          onClick={this.showMoreProjects.bind(this)}
-        >
-          Mehr...
+          onClick={this.showMoreProjects.bind(this)}>
+          Mehr..
         </LoadMoreButton>
       </LoadMoreButtonWrapper>
     );
@@ -159,28 +158,20 @@ class Index extends React.Component {
       body.offsetHeight,
       html.clientHeight,
       html.scrollHeight,
-      html.offsetHeight
+      html.offsetHeight,
     );
     const windowBottom = windowHeight + window.pageYOffset;
     if (windowBottom >= docHeight - 50 && this.state.loadedOnce) {
-      this.showMoreProjects({ preventDefault: () => null });
+      this.showMoreProjects({preventDefault: () => null});
     } else {
     }
   }
 
   render() {
-    const { projects } = data;
+    const {projects} = data;
     return (
       <Layout>
         <PageHeader>
-          <PageTitle>
-            <Green>Gedanken</Green>werk:<br />
-            <FormattedMessage
-              id="page_tagline"
-              defaultMessage="IDEEN FÜR DIE DIGITALE WELT"
-            />
-            <Green>.</Green>
-          </PageTitle>
           <Intro>
             <FormattedMessage
               id="page_intro"
