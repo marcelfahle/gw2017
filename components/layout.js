@@ -225,7 +225,7 @@ class Layout extends React.Component {
             <source src="/static/gw-header.mp4" />
           </Video>
           <PageTitle>
-            <Green>Gedanken</Green>werk:<br />
+            Gedankenwerk:<br />
             <FormattedMessage
               id="page_tagline"
               defaultMessage="IDEEN FÜR DIE DIGITALE WELT"
