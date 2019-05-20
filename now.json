@@ -1,0 +1,9 @@
+{
+  "version": 2,
+  "alias": ["gedankenwerk.com", "gedankenwerk.com"],
+  "name": "nextjs",
+    "builds": [
+        { "src": "next.config.js", "use": "@now/next" }
+    ]
+}
+

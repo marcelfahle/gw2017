@@ -1,5 +1,5 @@
 import styled from 'styled-components';
-import { FormattedHTMLMessage, FormattedMessage } from 'react-intl';
+import {FormattedHTMLMessage, FormattedMessage} from 'react-intl';
 
 const Green = styled.span`
   color: #51ed06;
@@ -110,7 +110,7 @@ export default () => (
       <ServiceTitle>
         <FormattedHTMLMessage
           id="services.video.title"
-          defaultMessage="Video & Foto<br>Produktion"
+          defaultMessage="Video<br>Produktionen"
         />
         <Green>.</Green>
       </ServiceTitle>
