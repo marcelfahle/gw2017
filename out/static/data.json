@@ -1,0 +1,621 @@
+{
+  "projects": [
+    {
+      "type": "video",
+      "url": "https://vimeo.com/328283828",
+      "img": "/static/project-rollstuhl.jpg",
+      "size": "4",
+      "title": "Deutsche Telekom:<br/>Neue Sporterfahrung - Rollstuhlbasketball"
+    },
+
+    {
+      "type": "video",
+      "url": "https://youtu.be/-xEtLQCuYas",
+      "img": "/static/project-imagetelekom.png",
+      "size": "2",
+      "title": "Making-Of<br/>So entsteht ein Kampagnenfilm für die TELEKOM!"
+    },
+    {
+      "type": "video",
+      "url": "https://vimeo.com/315293270",
+      "img": "/static/project-buddhaface.jpg",
+      "size": "2",
+      "title": "MY BUDDHAFACE<br/>Imagefilm"
+    },
+
+    {
+      "type": "video",
+      "url": "https://vimeo.com/318180565",
+      "img": "/static/project-azubi2.jpg",
+      "size": "4",
+      "title": "IHK Ruhr - Verallia<br/>Thema: Azubimarketing"
+    },
+
+    {
+      "type": "url",
+      "url": "https://mgbessen.de",
+      "img": "/static/project-mgbsite.png",
+      "size": "4",
+      "title": "Städtisches Mädchengymnasium Borbeck<br/>Website"
+    },
+
+    {
+      "type": "video",
+      "url": "https://vimeo.com/285500475",
+      "img": "/static/project-telekom1.jpg",
+      "size": "2",
+      "title": "Deutsche Telekom:<br/>Neue Sporterfahrung - Blindenfußball"
+    },
+    {
+      "type": "video",
+      "url": "https://vimeo.com/318173696",
+      "img": "/static/project-teilzeit.jpg",
+      "size": "2",
+      "title": "IHK Ruhr:<br/>Thema: Teilzeitausbildung "
+    },
+
+    {
+      "type": "video",
+      "url": "https://youtu.be/lngx_EDygxQ",
+      "img": "/static/project-canon2.jpg",
+      "size": "2",
+      "title": "Canon Spot 'Lass es raus':<br/>Making-Of"
+    },
+
+    {
+      "type": "video",
+      "url": "https://www.youtube.com/watch?v=Ize61mw_ylc",
+      "img": "/static/project-canon1.jpg",
+      "size": "2",
+      "title": "Canon Deutschland:<br/>Lass es raus"
+    },
+
+    {
+      "type": "video",
+      "url": "https://vimeo.com/317422075",
+      "img": "/static/project-klondike.jpg",
+      "size": "4",
+      "title": "Brand Relaunch Klondike 1896<br/>Instagram Kampagne"
+    },
+
+    {
+      "type": "video",
+      "url": "https://vimeo.com/286004839",
+      "img": "/static/project-mgbfilm.jpg",
+      "size": "2",
+      "title": "Städtisches Mädchengymnasium Borbeck:<br/>Imagefilm"
+    },
+
+    {
+      "type": "video",
+      "url": "https://vimeo.com/271828373",
+      "img": "/static/project-musikmenschen3.jpg",
+      "size": "2",
+      "title": "HiFi-Pawlak präsentiert:<br/>MUSIKMENSCHEN Folge 3"
+    },
+
+    {
+      "type": "offer",
+      "title": "<h3>EIN IMAGEFILM IST TEUER.<br/>WER SAGT DAS?</h3><p><strong>Beispielkalkulation:</strong><br/>Ein Drehtag im Unternehmen // Ein weiterer halber Drehtag für ein Interview // Schnitt und Musik inklusive // Online-Lizenz // max. Länge von 3 Minuten</p><p>Machen wir – in einem Radius vom 50 Kilometern ohne Anfahrtskosten. Tut auch gar nicht weh. VERSPROCHEN!</p><p><strong>Ab 2.799,- €</strong><br/>zzgl. Mehrwertsteuer</p>",
+      "img": "/static/angebot.jpg",
+      "size": "4"
+    },
+
+    {
+      "type": "video",
+      "url": "https://vimeo.com/318169861",
+      "img": "/static/project-azubimarketing.jpg",
+      "size": "4",
+      "title": "IHK Ruhr:<br/>Thema: Azubimarketing Gastronomie"
+    },
+
+    {
+      "type": "video",
+      "url": "https://vimeo.com/269345531",
+      "img": "/static/project-musikmenschen2.jpg",
+      "size": "2",
+      "title": "HiFi-Pawlak präsentiert:<br/>MUSIKMENSCHEN Folge 2"
+    },
+    {
+      "type": "video",
+      "url": "https://vimeo.com/263708440",
+      "img": "/static/project-musikmenschen1.jpg",
+      "size": "2",
+      "title": "HiFi-Pawlak präsentiert:<br/>MUSIKMENSCHEN Folge 1"
+    },
+
+    {
+      "type": "video",
+      "url": "https://vimeo.com/314087354",
+      "img": "/static/project-nessundorma.jpg",
+      "size": "4",
+      "title": "Stiftung Universitätsmedizin Essen & WvN Company:<br/>Nessun Dorma II - Benefizgala in der Lichtburg"
+    },
+
+    {
+      "type": "video",
+      "url": "https://vimeo.com/285464259",
+      "img": "/static/project-zollvereinjump.jpg",
+      "size": "2",
+      "title": "Stiftung Zollverein:<br/>jump, move and splash (Event)"
+    },
+    {
+      "type": "video",
+      "url": "https://vimeo.com/275570274",
+      "img": "/static/project-ihkspeeddating.jpg",
+      "size": "2",
+      "title": "IHK Ruhr:<br/>Azubi-Speed-Dating"
+    },
+
+    {
+      "type": "video",
+      "url": "https://youtu.be/CKUzYWfMCNs",
+      "img": "/static/project-kamrad.jpg",
+      "size": "4",
+      "title": "Musikvideo<br/>Tim Kamrad - Ruin Me"
+    },
+
+    {
+      "type": "video",
+      "url": "https://vimeo.com/274834217",
+      "img": "/static/project-mako.jpg",
+      "size": "2",
+      "title": "Out of Bounds<br/>Mako 2018"
+    },
+    {
+      "type": "video",
+      "url": "https://vimeo.com/268284350",
+      "img": "/static/project-workitout.png",
+      "size": "2",
+      "title": "Zeche Zollverein<br/>Work it out (ERIH)"
+    },
+
+    {
+      "type": "video",
+      "url": "https://vimeo.com/318175488",
+      "img": "/static/project-ecommerce.jpg",
+      "size": "4",
+      "title": "IHK Ruhr<br/>Thema: E-Commerce Kaufmann"
+    },
+
+    {
+      "type": "video",
+      "url": "https://vimeo.com/237192469",
+      "img": "/static/project-kabue.jpg",
+      "size": "2",
+      "title": "Corporate Video<br/>KaBü ANNA RÜ"
+    },
+    {
+      "type": "video",
+      "url": "https://vimeo.com/258937652",
+      "img": "/static/project-drk-muehleim.jpg",
+      "size": "2",
+      "title": "Deutsches Rotes Kreuz<br/>Kindertageseinrichtung Mülheim"
+    },
+
+    {
+      "type": "video",
+      "url": "https://www.youtube.com/watch?v=QwuHeQJMRpA",
+      "img": "/static/project-albanese.jpg",
+      "size": "2",
+      "title": "Albanese Music<br/>Weihnachtszeit 2017"
+    },
+    {
+      "type": "video",
+      "url": "https://vimeo.com/246472349",
+      "img": "/static/project-haut.png",
+      "size": "2",
+      "title": "Corporate Video<br/>Hautästheten"
+    },
+
+    {
+      "type": "video",
+      "url": "https://vimeo.com/262372508",
+      "img": "/static/project-extraklang.jpg",
+      "size": "1",
+      "title": "Folkwang Kammerorchester Esssen<br/>ExtraKlang I - Von Göttern und Sagen"
+    },
+
+    {
+      "type": "url",
+      "url": "http://cebit2016.gedankenwerk-hosting.com/",
+      "img": "/static/project-smartideas.png",
+      "size": "1",
+      "title": "SMART IDEAS<br/>SMARTER BUSINESS"
+    },
+    {
+      "type": "video",
+      "url": "https://vimeo.com/231114292",
+      "img": "/static/project-hugenpoet.jpg",
+      "size": "2",
+      "title": "Schlosshotel Hugenpoet<br/>Tag der offenen Tür"
+    },
+    {
+      "type": "video",
+      "url": "https://www.youtube.com/watch?v=l9UIEGmSvG0",
+      "img": "/static/project-p20.jpg",
+      "size": "1",
+      "title": "YouTube Channel<br/>Huawei P20 Pro"
+    },
+    {
+      "type": "video",
+      "url": "https://www.youtube.com/watch?v=gF7G6Oha7Cs&feature=youtu.be",
+      "img": "/static/project-imagefilm.jpg",
+      "size": "1",
+      "title": "Behind the scenes<br/>So entsteht ein Imagefilm"
+    },
+
+    {
+      "type": "video",
+      "url": "https://vimeo.com/258316377",
+      "img": "/static/project-drk-blankenheim.jpg",
+      "size": "2",
+      "title": "Deutsches Rotes Kreuz<br/>Kreisverband Euskirchen"
+    },
+    {
+      "type": "video",
+      "url": "https://vimeo.com/259297752",
+      "img": "/static/project-drk-einleitung.jpg",
+      "size": "2",
+      "title": "Deutsches Rotes Kreuz<br/>AquaFun - KiTaFit"
+    },
+
+    {
+      "type": "video",
+      "url": "https://vimeo.com/221903048",
+      "img": "/static/project-hoerstken.jpg",
+      "size": "1",
+      "title": "CORPORATE VIDEO:<br/>Hörstken's Gärten"
+    },
+    {
+      "type": "video",
+      "url": "https://vimeo.com/232815776",
+      "img": "/static/project-pilgrim.jpg",
+      "size": "1",
+      "title": "Corporate Video<br/>Pilgrim - Recruiting"
+    },
+    {
+      "type": "video",
+      "url": "https://vimeo.com/226290147",
+      "img": "/static/project-pawlak2.jpg",
+      "size": "2",
+      "title": "CORPORATE VIDEO:<br/>Hifi-Pawlak"
+    },
+    {
+      "type": "category",
+      "title": "KREATIVE<br/>KONZEPTE"
+    },
+    {
+      "type": "video",
+      "url": "https://youtu.be/EIDLF-nDaj4",
+      "img": "/static/project-gadgethydrogen.jpg",
+      "size": "1",
+      "title": "RED Hydrogen One<br/>Mein erster Eindruck"
+    },
+
+    {
+      "type": "video",
+      "url": "https://vimeo.com/244304286",
+      "img": "/static/project-dieschoepfung.jpg",
+      "size": "2",
+      "title": "Haydn - Die Schöpfung<br/>Erlöserkirche"
+    },
+    {
+      "type": "video",
+      "url": "https://vimeo.com/253811727",
+      "img": "/static/project-hornsound.jpg",
+      "size": "2",
+      "title": "German Hornsound<br/>hornlikes CD-Release"
+    },
+
+    {
+      "type": "video",
+      "url": "https://youtu.be/EHIO5ZmyS1k",
+      "img": "/static/project-bmpcc.jpg",
+      "size": "1",
+      "title": "Blackmagic PCC4K<br/>Erster Eindruck & Test"
+    },
+    {
+      "type": "url",
+      "url": "http://inflight-presentation.gedankenwerk-hosting.com/",
+      "img": "/static/project-inflight.png",
+      "size": "1",
+      "title": "INFLIGHT WIRELESS<br/>CONNECTIVITY"
+    },
+    {
+      "type": "video",
+      "url": "https://vimeo.com/225648713",
+      "img": "/static/project-ledermanufaktur.jpg",
+      "size": "2",
+      "title": "CORPORATE VIDEO:<br/>Mays Berlin - Ledermanufaktur"
+    },
+    {
+      "type": "category",
+      "title": "Responsive<br/>Websites"
+    },
+    {
+      "type": "video",
+      "url": "https://vimeo.com/261442813",
+      "img": "/static/project-ihk1.jpg",
+      "size": "1",
+      "title": "IHK Ruhr<br/>Ankündigung der Kampagne"
+    },
+
+    {
+      "type": "video",
+      "url": "https://vimeo.com/256548527",
+      "img": "/static/project-drk-rheinberg.jpg",
+      "size": "2",
+      "title": "Deutsches Rotes Kreuz<br/>Kindertagesstätte Flohkiste Rheinberg"
+    },
+    {
+      "type": "video",
+      "url": "https://vimeo.com/262372508",
+      "img": "/static/project-uwaga.png",
+      "size": "2",
+      "title": "Folkwang Kammerorchester & Uwaga<br/>ExtraKlang II - Konzertrückblick "
+    },
+
+    {
+      "type": "url",
+      "url": "http://europeanaviationnetwork.com/",
+      "img": "/static/project-ean.png",
+      "size": "2",
+      "title": "EUROPEAN AVIATION NETWORK"
+    },
+    {
+      "type": "video",
+      "url": "https://vimeo.com/164551782/0065810230",
+      "img": "/static/project-fiber.png",
+      "size": "1",
+      "title": "Fiber to the home"
+    },
+    {
+      "type": "url",
+      "url": "http://kunden.gedankenwerk.com/smart/Smart-City/preview/",
+      "img": "/static/project-smartcity.png",
+      "size": "1",
+      "title": "Smart City"
+    },
+    {
+      "type": "category",
+      "title": "Produkt<br/>Videos"
+    },
+    {
+      "type": "video",
+      "url": "https://vimeo.com/gedankenwerk/review/85516897/1a8099c7f9",
+      "img": "/static/project-mobileworkplace.png",
+      "size": "1",
+      "title": "Mobile Workplace"
+    },
+
+    {
+      "type": "video",
+      "url": "https://www.youtube.com/watch?v=HfgZ-tYUUaA",
+      "img": "/static/project-red1.jpg",
+      "size": "1",
+      "title": "YouTube Channel<br/>RED SCARLET-W REVIEW Teil 1"
+    },
+    {
+      "type": "video",
+      "url": "https://www.youtube.com/watch?v=irzECwgbJP0",
+      "img": "/static/project-mclaren.jpg",
+      "size": "1",
+      "title": "YOUTUBE CHANNEL:<br/>OnePlus 6T McLaren Edition"
+    },
+    {
+      "type": "nan",
+      "url": "",
+      "img": "/static/project-stollenhelden.png",
+      "size": "2",
+      "title": "Stollenhelden"
+    },
+    {
+      "type": "category",
+      "title": "Facebook<br/>Videos"
+    },
+
+    {
+      "type": "video",
+      "url": "https://vimeo.com/249036615",
+      "img": "/static/project-bachchor.jpg",
+      "size": "1",
+      "title": "Essener Bachchor<br/>Weihnachtsoratorium"
+    },
+
+    {
+      "type": "video",
+      "url": "https://vimeo.com/196893314",
+      "img": "/static/project-eisdisco.jpg",
+      "size": "2",
+      "title": "Zeche Zollverein:<br/>Eisdisco"
+    },
+
+    {
+      "type": "video",
+      "url": "https://www.youtube.com/watch?v=_uUctxvLy3M",
+      "img": "/static/project-littleweekender.jpg",
+      "size": "1",
+      "title": "YOUTUBE CHANNEL:<br/>The Little Weekender"
+    },
+    {
+      "type": "url",
+      "url": "http://mvno.telekom.net/",
+      "img": "/static/project-wholesale.png",
+      "size": "1",
+      "title": "INTERNATIONAL<br/>MOBILE WHOLESALE"
+    },
+    {
+      "type": "category",
+      "title": "Support<br/>Videos"
+    },
+    {
+      "type": "url",
+      "url": "https://internet-business-suite.com/de/home",
+      "img": "/static/project-ibs.png",
+      "size": "1",
+      "title": "TELEKOM INTERNET<br/>BUSINESS SUITE"
+    },
+    {
+      "type": "nan",
+      "url": "",
+      "img": "/static/project-tventure.png",
+      "size": "1",
+      "title": "T-VENTURE WEBSITE"
+    },
+    {
+      "type": "nan",
+      "url": "",
+      "img": "/static/project-techday.png",
+      "size": "1",
+      "title": "TELEKOM TECHDAY"
+    },
+    {
+      "type": "url",
+      "url": "http://kunden.gedankenwerk.com/Telekom_Digitale_Filiale/index.html",
+      "img": "/static/project-geschaeftskunden.jpg",
+      "size": "2",
+      "title": "GESCHÄFTSKUNDEN PRÄSENTATIONSTOOL"
+    },
+    {
+      "type": "url",
+      "url": "http://inflight.telekom.net/",
+      "img": "/static/project-inflight2.png",
+      "size": "1",
+      "title": "TELEKOM INFLIGHT"
+    },
+    {
+      "type": "category",
+      "title": "Youtube<br/>Channel"
+    },
+    {
+      "type": "url",
+      "url": "https://hifi-pawlak.de/",
+      "img": "/static/project-pawlak.png",
+      "size": "2",
+      "title": "HIFI PAWLAK"
+    },
+    {
+      "type": "nan",
+      "url": "",
+      "img": "/static/project-fanmeile.png",
+      "size": "1",
+      "title": "FANMEILE BERLIN"
+    },
+    {
+      "type": "nan",
+      "url": "",
+      "img": "/static/project-smart2.png",
+      "size": "1",
+      "title": "SMART KAMPAGNE<br/>STEVE APPLETON"
+    },
+    {
+      "type": "video",
+      "url": "https://vimeo.com/145406594/e10246896b",
+      "img": "/static/project-umzugsservice.png",
+      "size": "1",
+      "title": "TELEKOM UMZUGSSERVICE"
+    },
+    {
+      "type": "category",
+      "title": "Art<br/>Direction"
+    },
+    {
+      "type": "video",
+      "url": "https://www.youtube.com/watch?v=pYGUMBQ58RQ",
+      "img": "/static/project-samsungs8.jpg",
+      "size": "1",
+      "title": "YOUTUBE CHANNEL:<br/>Samsung Galaxy S8 Plus"
+    },
+    {
+      "type": "url",
+      "url": "http://clintonharn.com",
+      "img": "/static/project-clinton.png",
+      "size": "1",
+      "title": "Clinton Harn"
+    },
+    {
+      "type": "nan",
+      "url": "",
+      "img": "/static/project-tke.png",
+      "size": "2",
+      "title": "THYSSENKRUPP"
+    },
+    {
+      "type": "url",
+      "url": "http://kunden.gedankenwerk.com/Telekom/infoservice02/",
+      "img": "/static/project-infoservice.png",
+      "size": "1",
+      "title": "Telekom Infoservice"
+    },
+    {
+      "type": "category",
+      "title": "Illustrationen"
+    },
+    {
+      "type": "video",
+      "url": "https://www.youtube.com/watch?v=zp5hnzWPydw",
+      "img": "/static/project-segway.jpg",
+      "size": "1",
+      "title": "YOUTUBE CHANNEL:<br/>NINEBOT MINI PRO"
+    },
+    {
+      "type": "category",
+      "title": "Beratung"
+    },
+    {
+      "type": "url",
+      "url": "http://entertain.gedankenwerk-hosting.com/",
+      "img": "/static/project-entertain.png",
+      "size": "1",
+      "title": "ENTERTAIN INSTALLATION &<br/>VERKABELUNG"
+    },
+    {
+      "type": "video",
+      "url": "https://vimeo.com/gedankenwerk/review/61343382/ca6ede7e47",
+      "img": "/static/project-nokiax6.png",
+      "size": "1",
+      "title": "NOKIA X6 PRODUKTVIDEO"
+    },
+    {
+      "type": "category",
+      "title": "Mobile<br/>Websites"
+    },
+
+    {
+      "type": "nan",
+      "url": "",
+      "img": "/static/project-virtuellecompany.png",
+      "size": "1",
+      "title": "T-Systems:<br/>Virtuelle Company"
+    },
+    {
+      "type": "nan",
+      "url": "",
+      "img": "/static/project-youandme.png",
+      "size": "1",
+      "title": "Deutsche Telekom:<br/>You and Me"
+    },
+    {
+      "type": "video",
+      "url": "https://vimeo.com/233954894",
+      "img": "/static/project-folkwang.jpg",
+      "size": "1",
+      "title": "Folkwang Kammerorchester Essen<br/>Saisonstart 2017"
+    },
+    {
+      "type": "nan",
+      "url": "",
+      "img": "/static/project-produkteundloesungen.png",
+      "size": "1",
+      "title": "T-Systems:<br/>Produkte & Lösungen"
+    },
+    {
+      "type": "nan",
+      "url": "",
+      "img": "/static/project-nokiaxmas.png",
+      "size": "1",
+      "title": "Nokia<br/>Christmas Special 2009"
+    }
+  ]
+}

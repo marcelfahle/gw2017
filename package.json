@@ -3,6 +3,7 @@
   "scripts": {
     "dev": "node server.js",
     "build": "next build && node ./scripts/default-lang",
+    "export": "next build && node ./scripts/default-lang && next export",
     "start": "NODE_ENV=production node server.js"
   },
   "dependencies": {
