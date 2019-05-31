@@ -2,6 +2,14 @@
   "projects": [
     {
       "type": "video",
+      "url": "https://vimeo.com/338845783",
+      "img": "/static/vonovia-dresden-2.jpg",
+      "size": "4",
+      "title": "Vonovia:<br/>In Dresden zuhause"
+    },
+
+    {
+      "type": "video",
       "url": "https://vimeo.com/328283828",
       "img": "/static/project-rollstuhl.jpg",
       "size": "4",
