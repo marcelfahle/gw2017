@@ -14,7 +14,7 @@ const PageTitle = styled.h1`
   z-index: 20;
   left: 50%;
   top: 50%;
-  transform: translateX(-50%) translateY(-4%);
+  transform: translateX(-50%) translateY(20%);
 
   color: white;
   text-transform: uppercase;
@@ -32,28 +32,32 @@ const PageTitle = styled.h1`
   white-space: nowrap;
   @media screen and (min-width: 410px) {
     font-size: 1.9rem;
+    transform: translateX(-50%) translateY(0);
   }
   @media screen and (min-width: 480px) {
-    transform: translateX(-50%) translateY(-24%);
   }
   @media screen and (min-width: 520px) {
     font-size: 2.2rem;
+    transform: translateX(-50%) translateY(-20%);
   }
   @media screen and (min-width: 720px) {
     font-size: 2.8rem;
     border-bottom: 7px solid #51ed06;
+    transform: translateX(-50%) translateY(-25%);
   }
   @media screen and (min-width: 820px) {
     font-size: 3rem;
     margin-bottom: 0.4em;
+    transform: translateX(-50%) translateY(-30%);
   }
   @media screen and (min-width: 960px) {
     font-size: 3.75rem;
-    transform: translateX(-50%) translateY(-74%);
+    transform: translateX(-50%) translateY(-35%);
   }
   @media screen and (min-width: 1060px) {
     font-size: 4.375rem;
     border-bottom: 9px solid #51ed06;
+    transform: translateX(-50%) translateY(-45%);
   }
 `;
 
@@ -63,14 +67,15 @@ const Green = styled.span`
 
 const VideoHeader = styled.div`
   height: 100vh;
-  margin: 0 0 50px 0;
+  margin: 0 0 40px 0;
+  overflow: hidden;
 `;
 const Video = styled.video`
   position: relative;
   left: 50%;
   transform: translateX(-50%);
   min-width: 100%;
-  height: 100%;
+  min-height: 100%;
   overflow: hidden;
 `;
 
