@@ -69,10 +69,6 @@ const VideoHeader = styled.div`
   height: 100vh;
   margin: 0 0 40px 0;
   overflow: hidden;
-  background-image: url("/static/headervideofallback.jpg");
-  background-size: cover;
-  background-position: center;
-  position: relative;
 `;
 const VideoBlocker = styled.div`
   height: 100%;
