@@ -74,7 +74,7 @@ const Intro = styled.p`
     max-width: 75%;
   }
   @media screen and (min-width: 1280px) {
-    max-width: 55%;
+    max-width: 75%;
   }
   @media screen and (min-width: 1400px) {
     max-width: 50%;
