@@ -286,7 +286,6 @@ class Layout extends React.Component {
 
         <VideoHeader>
           <Video id="header-video" autoPlay loop muted playsInline>
-            <source src="/static/gw-header.webm" type="video/webm" />
             <source src="/static/gw-header.mp4" type="video/mp4" />
           </Video>
           <PageTitle>
