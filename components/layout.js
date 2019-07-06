@@ -62,31 +62,16 @@ const Green = styled.span`
 `;
 
 const VideoHeader = styled.div`
-  width: 100%;
-  position: relative;
-  padding-bottom: 48%;
-  margin-bottom: 38%;
-  @media screen and (min-width: 480px) {
-    margin-bottom: 28%;
-  }
-  @media screen and (min-width: 960px) {
-    margin-bottom: 5%;
-  }
+  height: 100vh;
+  margin: 0 0 50px 0;
 `;
 const Video = styled.video`
-  position: absolute;
+  position: relative;
   left: 50%;
-  top: 0;
   transform: translateX(-50%);
-  width: 160%;
-  z-index: 10;
-
-  @media screen and (min-width: 480px) {
-    width: 140%;
-  }
-  @media screen and (min-width: 960px) {
-    width: 100%;
-  }
+  min-width: 100%;
+  height: 100%;
+  overflow: hidden;
 `;
 
 class Layout extends React.Component {
@@ -250,10 +235,13 @@ class Layout extends React.Component {
           }
           header {
             background: #141414;
-            position: relative;
+            position: absolute;
             padding: 0 10px;
+            left: 0;
+            right: 0;
             height: 95px;
             border-bottom: 5px solid #51ed06;
+            z-index: 21;
           }
           @media screen and (min-width: 420px) {
             header {
@@ -298,13 +286,14 @@ class Layout extends React.Component {
 
         <VideoHeader>
           <Video id="header-video" autoPlay loop muted playsInline>
-            <source src="/static/gw-header.mp4" />
+            <source src="/static/gw-header.webm" type="video/webm" />
+            <source src="/static/gw-header.mp4" type="video/mp4" />
           </Video>
           <PageTitle>
             Gedankenwerk:<br />
             <FormattedMessage
               id="page_tagline"
-              defaultMessage="IDEEN FÜR DIE DIGITALE WELT"
+              defaultMessage="WEB & VIDEOPRODUKTION"
             />
             <Green>.</Green>
           </PageTitle>

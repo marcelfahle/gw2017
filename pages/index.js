@@ -188,9 +188,9 @@ class Index extends React.Component {
       <Layout>
         <PageHeader>
           <Intro>
-            <FormattedMessage
+            <FormattedHTMLMessage
               id="page_intro"
-              defaultMessage="Wir lieben das Web. Und wir entwickeln für unsere Kunden, was das Web liebt: innovative Websites, professionelle Videos und ausgereiften Content für die Sozialen Medien. Das tun wir bei Gedankenwerk seit über 15 Jahren für große und kleine Unternehmen – und mit den passenden Spezialisten für jede Herausforderung. Sprechen Sie uns einfach an. Denn mit uns kann man reden."
+              defaultMessage="<strong>Ideen für die Digitale Welt.</strong><br>Wir lieben das Web. Und wir entwickeln für unsere Kunden, was das Web liebt: innovative Websites, professionelle Videos und ausgereiften Content für die Sozialen Medien. Das tun wir bei Gedankenwerk seit über 15 Jahren für große und kleine Unternehmen – und mit den passenden Spezialisten für jede Herausforderung. Sprechen Sie uns einfach an. Denn mit uns kann man reden."
             />
           </Intro>
         </PageHeader>
