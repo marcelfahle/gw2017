@@ -70,6 +70,12 @@ const VideoHeader = styled.div`
   margin: 0 0 40px 0;
   overflow: hidden;
 `;
+const VideoBlocker = styled.div`
+  height: 100%;
+  position: absolute;
+  width: 100%;
+  z-index: 1;
+`;
 const Video = styled.video`
   position: relative;
   left: 50%;
@@ -290,6 +296,7 @@ class Layout extends React.Component {
         `}</style>
 
         <VideoHeader>
+          <VideoBlocker></VideoBlocker>
           <Video id="header-video" autoPlay loop muted playsInline>
             <source src="/static/gw-header.webm" type="video/webm" />
             <source src="/static/gw-header.mp4" type="video/mp4" />
