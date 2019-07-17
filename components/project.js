@@ -198,8 +198,27 @@ const Link = styled.a`
 
   &.t-video {
     background: transparent url('/static/btn-play.svg') no-repeat;
-    background-size: 18%;
     background-position: center;
+    background-size: 18%;
+  }
+  &.t-video-4 {
+    background: transparent url('/static/btn-play.svg') no-repeat;
+    background-position: center;
+    background-size: 18%;
+  }
+  @media screen and (min-width: 520px) {
+    &.t-video,
+    &.t-video-4 {
+      background-size: 13.5%;
+    }
+  }
+  @media screen and (min-width: 1000px) {
+    &.t-video {
+      background-size: 18%;
+    }
+    &.t-video-4 {
+      background-size: 13.5%;
+    }
   }
   &.t-nan {
     cursor: default;
