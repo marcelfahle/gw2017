@@ -8,7 +8,7 @@ injectGlobal`
 const ProjectWrapper = styled.div`
   position: relative;
   width: calc(100%);
-  height: 48.6vw;
+  height: 51.6vw;
   background: black
     ${props => (props.img ? 'url(' + props.img + ') no-repeat' : '')};
   background-size: cover;
@@ -26,7 +26,7 @@ const ProjectWrapper = styled.div`
   &.grid-item--2 {
     @media screen and (min-width: 410px) {
       width: calc(99.5%);
-      height: 48.6vw;
+      height: 51.6vw;
     }
     @media screen and (min-width: 1000px) {
       width: calc(49% - 0px);
@@ -36,11 +36,11 @@ const ProjectWrapper = styled.div`
   &.grid-item--4 {
     @media screen and (min-width: 410px) {
       width: calc(100%);
-      height: 48.6vw;
+      height: 51.6vw;
     }
     @media screen and (min-width: 1000px) {
       width: calc(99%);
-      height: 48.6vw;
+      height: 51.6vw;
     }
   }
   &.category {
