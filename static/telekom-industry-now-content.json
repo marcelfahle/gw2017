@@ -1,0 +1,53 @@
+{
+  "projects": [
+    {
+      "type": "video",
+      "url": "https://vimeo.com/352897608",
+      "img": "/static/project-telekom_industry_now_1.png",
+      "size": "4",
+      "title": "1"
+    },
+      {
+      "type": "nan",
+      "url": "",
+      "img": "/static/project-telekom_industry_now_2.png",
+      "size": "4",
+      "title": "2"
+    },
+    {
+      "type": "nan",
+      "url": "",
+      "img": "/static/project-telekom_industry_now_3.png",
+      "size": "4",
+      "title": "3"
+    },
+    {
+      "type": "nan",
+      "url": "",
+      "img": "/static/project-telekom_industry_now_4.png",
+      "size": "4",
+      "title": "4"
+    },
+    {
+      "type": "nan",
+      "url": "",
+      "img": "/static/project-telekom_industry_now_5.png",
+      "size": "4",
+      "title": "5"
+    },
+    {
+      "type": "nan",
+      "url": "",
+      "img": "/static/project-telekom_industry_now_6.png",
+      "size": "4",
+      "title": "6"
+    },
+    {
+      "type": "nan",
+      "url": "",
+      "img": "/static/project-telekom_industry_now_7.png",
+      "size": "4",
+      "title": "7"
+    }
+  ]
+}

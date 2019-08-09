@@ -210,6 +210,13 @@
       "title": "Corporate Video<br/>Hautästheten"
     },
     {
+      "type": "url",
+      "url": "/telekom-industry-now",
+      "img": "/static/project-telekom_industry_now_2.png",
+      "size": "4",
+      "title": "Deutsche Telekom<br/>Business Applikation – Industry Now"
+    },
+    {
       "type": "video",
       "url": "https://vimeo.com/262372508",
       "img": "/static/project-extraklang.jpg",
