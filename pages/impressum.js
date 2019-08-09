@@ -1,5 +1,5 @@
 import Green from './../components/green';
-import Layout from '../components/layout'
+import Layout from '../components/layout-no-intro'
 import pageWithIntl from '../components/page_with_intl';
 
 export default pageWithIntl (() => (
