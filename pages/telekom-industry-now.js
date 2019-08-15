@@ -256,7 +256,7 @@ class Index extends React.Component {
           <PageTitleBelow>Text / Illustration / Animation / Development</PageTitleBelow>
           <Intro>
             <FormattedHTMLMessage
-              id="page_intro"
+              id="page_intro_telekom_industry_now"
               defaultMessage="Für die Deutsche Telekom haben wir eine Business Applikation erstellt, die Geschäftskunden visuell verdeutlicht, wie die Deutsche Telekom im täglichen Geschäft mit digitalen Lösungen unterstützen kann. Damit sich möglichst viele Geschäftsbereiche wiederfinden, haben wir drei Kategorien definiert, die exemplarisch für die am meisten vertretenen Industriezweige in Deutschland stehen.<br><br>Unterstützt durch einen animierten Introfilm, der den selben Illustrationsstil wie die Applikation aufweist, werden Kunden in Geschäftsterminen mit ihren Ansprechpartnern vor Ort zu einer auf sie zugeschnittenen Lösung geführt."
             />
           </Intro>
