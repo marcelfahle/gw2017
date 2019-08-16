@@ -1,5 +1,12 @@
 {
   "projects": [
+        {
+      "type": "video",
+      "url": "https://vimeo.com/353424558",
+      "img": "/static/project-musikmenschen4.jpg",
+      "size": "4",
+      "title": "HiFi-Pawlak präsentiert:<br/>MUSIKMENSCHEN Folge 4"
+    },
       {
       "type": "video",
       "url": "https://vimeo.com/351005812",
