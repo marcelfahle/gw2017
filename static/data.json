@@ -127,10 +127,11 @@
       "title": "HiFi-Pawlak präsentiert:<br/>MUSIKMENSCHEN Folge 3"
     },
     {
-      "type": "offer",
-      "title": "<h3>EIN IMAGEFILM IST TEUER.<br/>WER SAGT DAS?</h3><p><strong>Beispielkalkulation:</strong><br/>Ein Drehtag im Unternehmen // Ein weiterer halber Drehtag für ein Interview // Schnitt und Musik inklusive // Online-Lizenz // max. Länge von 3 Minuten</p><p>Machen wir – in einem Radius vom 50 Kilometern ohne Anfahrtskosten. Tut auch gar nicht weh. VERSPROCHEN!</p><p><strong>Ab 2.799,- €</strong><br/>zzgl. Mehrwertsteuer</p>",
+      "type": "video",
+      "url": "https://www.youtube.com/GadgetStage",
       "img": "/static/angebot.jpg",
-      "size": "4"
+      "size": "4",
+      "title": "Youtube Channel<br/>Gadgetstage"
     },
     {
       "type": "video",
