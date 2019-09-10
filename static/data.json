@@ -1,17 +1,24 @@
 {
   "projects": [
-        {
+    {
+      "type": "video",
+      "url": "https://vimeo.com/359047454",
+      "img": "/static/project-universitaetsmedizin-essen-hermann-seippel-preis-2019.jpg",
+      "size": "4",
+      "title": "Stiftung Universitätsmedizin Essen<br/>Gewinner des Hermann-Seippel-Preis 2019"
+    },
+    {
       "type": "video",
       "url": "https://vimeo.com/353424558",
       "img": "/static/project-musikmenschen4.jpg",
-      "size": "4",
+      "size": "2",
       "title": "HiFi-Pawlak präsentiert:<br/>MUSIKMENSCHEN Folge 4"
     },
-      {
+    {
       "type": "video",
       "url": "https://vimeo.com/351005812",
       "img": "/static/my-buddhaface-commercial-spot.jpg",
-      "size": "4",
+      "size": "2",
       "title": "My Buddhaface<br/>Web Commercial Spot"
     },
     {
@@ -51,9 +58,16 @@
     },
     {
       "type": "video",
+      "url": "https://vimeo.com/343922572",
+      "img": "/static/project-universitaetsmedizin-essen-innovation-contest-ume-2019.jpg",
+      "size": "2",
+      "title": "Universitätsmedizin Essen<br/>Innovation Contest UME 2019"
+    },
+    {
+      "type": "video",
       "url": "https://vimeo.com/318180565",
       "img": "/static/project-azubi2.jpg",
-      "size": "4",
+      "size": "2",
       "title": "IHK Ruhr<br/>Beitrag zum Azubimarketing"
     },
     {
@@ -228,7 +242,7 @@
       "url": "https://vimeo.com/262372508",
       "img": "/static/project-extraklang.jpg",
       "size": "1",
-      "title": "Folkwang Kammerorchester Esssen<br/>ExtraKlang I - Von Göttern und Sagen"
+      "title": "Folkwang Kammerorchester Essen<br/>ExtraKlang I - Von Göttern und Sagen"
     },
     {
       "type": "url",
