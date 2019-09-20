@@ -2,6 +2,13 @@
   "projects": [
     {
       "type": "video",
+      "url": "https://vimeo.com/361228012",
+      "img": "/static/project-dinner-gegen-krebs-lukas.jpg",
+      "size": "4",
+      "title": "Dinner gegen Krebs<br/>Benefizabend auf dem Buchholzhof"
+    },
+    {
+      "type": "video",
       "url": "https://vimeo.com/359047454",
       "img": "/static/project-universitaetsmedizin-essen-hermann-seippel-preis-2019.jpg",
       "size": "4",
