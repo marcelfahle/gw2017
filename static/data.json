@@ -17,21 +17,14 @@
     {
       "type": "video",
       "url": "https://vimeo.com/351005812",
-      "img": "/static/my-buddhaface-commercial-spot.jpg",
+      "img": "/static/project-my-buddhaface-commercial-spot.jpg",
       "size": "2",
       "title": "My Buddhaface<br/>Web Commercial Spot"
     },
     {
       "type": "video",
       "url": "https://vimeo.com/338845783",
-      "img": "/static/vonovia-dresden-2.jpg",
-      "size": "4",
-      "title": "Vonovia<br/>In Dresden zuhause"
-    },
-    {
-      "type": "video",
-      "url": "https://vimeo.com/338845783",
-      "img": "/static/vonovia-dresden-2.jpg",
+      "img": "/static/project-vonovia-dresden-2.jpg",
       "size": "4",
       "title": "Vonovia<br/>In Dresden zuhause"
     },
