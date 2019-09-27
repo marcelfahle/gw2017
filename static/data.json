@@ -2,6 +2,13 @@
   "projects": [
     {
       "type": "video",
+      "url": "https://vimeo.com/357066109",
+      "img": "/static/project-verallia-ausbildung-elektroniker.jpg",
+      "size": "4",
+      "title": "Verallia<br/>Recruiting Video: Ausbildung zum Elektroniker"
+    },
+    {
+      "type": "video",
       "url": "https://vimeo.com/361228012",
       "img": "/static/project-dinner-gegen-krebs-lukas.jpg",
       "size": "4",
@@ -11,8 +18,15 @@
       "type": "video",
       "url": "https://vimeo.com/359047454",
       "img": "/static/project-universitaetsmedizin-essen-hermann-seippel-preis-2019.jpg",
-      "size": "4",
+      "size": "2",
       "title": "Stiftung Universitätsmedizin Essen<br/>Gewinner des Hermann-Seippel-Preis 2019"
+    },
+    {
+      "type": "video",
+      "url": "https://vimeo.com/359542968",
+      "img": "/static/project-apobank-zukunftsmedizin19.jpg",
+      "size": "2",
+      "title": "Deutsche Apotheker- und Ärztebank (apoBank)<br/>Eventfilm: Zukunfts-Medizin 19 – Flying Towards Digital Health"
     },
     {
       "type": "video",
