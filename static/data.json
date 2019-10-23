@@ -2,10 +2,17 @@
   "projects": [
     {
       "type": "video",
+      "url": "https://vimeo.com/364253143",
+      "img": "/static/project-verallia-ausbildung-glastechnik.jpg",
+      "size": "4",
+      "title": "Verallia – Recruiting Video:<br/>Ausbildung zum Verfahrensmechaniker Glastechnik"
+    },
+    {
+      "type": "video",
       "url": "https://vimeo.com/357066109",
       "img": "/static/project-verallia-ausbildung-elektroniker.jpg",
       "size": "4",
-      "title": "Verallia<br/>Recruiting Video: Ausbildung zum Elektroniker"
+      "title": "Verallia – Recruiting Video:<br/>Ausbildung zum Elektroniker"
     },
     {
       "type": "video",
