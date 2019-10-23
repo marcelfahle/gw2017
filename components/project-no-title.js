@@ -167,7 +167,7 @@ const Title = styled.h3`
   margin: 0;
   line-height: 1em;
   padding: 5px;
-  font-size: 0.9rem;
+  font-size: 0.8rem;
   text-transform: uppercase;
   &.category-title {
     font-size: 1.1em;
