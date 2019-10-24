@@ -9,17 +9,24 @@
     },
     {
       "type": "video",
+      "url": "https://vimeo.com/361228012",
+      "img": "/static/project-dinner-gegen-krebs-lukas.jpg",
+      "size": "2",
+      "title": "Stiftung Universitätsmedizin Essen<br/>Dinner gegen Krebs - Benefizabend auf dem Buchholzhof"
+    },
+    {
+      "type": "video",
+      "url": "https://vimeo.com/366194772",
+      "img": "/static/project-ume-einfuehrungstage.jpg",
+      "size": "2",
+      "title": "Universitätsmedizin Essen<br/>Einführungstage für neue Beschäftigte"
+    },
+    {
+      "type": "video",
       "url": "https://vimeo.com/357066109",
       "img": "/static/project-verallia-ausbildung-elektroniker.jpg",
       "size": "4",
       "title": "Verallia – Recruiting Video:<br/>Ausbildung zum Elektroniker"
-    },
-    {
-      "type": "video",
-      "url": "https://vimeo.com/361228012",
-      "img": "/static/project-dinner-gegen-krebs-lukas.jpg",
-      "size": "4",
-      "title": "Stiftung Universitätsmedizin Essen<br/>Dinner gegen Krebs - Benefizabend auf dem Buchholzhof"
     },
     {
       "type": "video",
