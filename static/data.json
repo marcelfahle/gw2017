@@ -2,6 +2,13 @@
   "projects": [
     {
       "type": "video",
+      "url": "https://youtu.be/k5MgoRzFPSI",
+      "img": "/static/project-p-und-c-ttt19.jpg",
+      "size": "4",
+      "title": "Peek & Cloppenburg Eventfilm:<br/>Trendforscher trifft Trendsetter #TTT19"
+    },
+    {
+      "type": "video",
       "url": "https://vimeo.com/364253143",
       "img": "/static/project-verallia-ausbildung-glastechnik.jpg",
       "size": "4",
