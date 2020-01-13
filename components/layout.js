@@ -254,7 +254,7 @@ class Layout extends React.Component {
             padding: 0 10px;
             left: 0;
             right: 0;
-            height: 95px;
+            height: 120px;
             border-bottom: 5px solid #51ed06;
             z-index: 21;
           }
@@ -263,14 +263,13 @@ class Layout extends React.Component {
               padding: 0 40px;
             }
           }
-          @media screen and (min-width: 820px) {
-            header {
-              height: 76px;
-            }
-          }
           @media screen and (min-width: 1020px) {
             header {
-              height: 86px;
+              height: 120px;
+          }
+          @media screen and (min-width: 1120px) {
+            header {
+              height: 85px;
             }
           }
           .page-title {

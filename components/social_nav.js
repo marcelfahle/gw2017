@@ -11,11 +11,32 @@ export default ({ children }) => (
       @media screen and (min-width: 420px) {
         .social-nav { right: 40px; }
       }
-      @media screen and (min-width: 820px) {
+      @media screen and (min-width: 1120px) {
         .social-nav { top: 24px; }
       }
-      @media screen and (min-width: 1020px) {
-        .social-nav { top: 28px; }
+      a[href^="tel"] {
+        color: white;
+        text-decoration: none;
+      }
+      .navbar_phonenumber {
+        background-image: url("../static/icon-phone.svg");
+        background-position: 0 1px;
+        background-repeat: no-repeat;
+        background-size: 24px;
+        bottom: 5px;
+        color: white;
+        display: inline-block;
+        font-family: 'Archivo Narrow',sans-serif;
+        font-size: 20px;
+        font-weight: light;
+        height: 30px;
+        margin: 0 15px 0 0;
+        padding: 0 0 0 26px;
+        position: relative;
+        text-decoration: none;
+      }
+      .navbar_phonenumber:hover {
+        opacity: 0.8;
       }
       .icon {
         height: 24px;
@@ -39,7 +60,7 @@ export default ({ children }) => (
 
     `}</style>
 
-
+    <a className="navbar_phonenumber" href='tel:+4920163019133'>0201 630 191 - 33</a>
     <a rel="noopener" href='https://www.facebook.com/gedankenwerk' target="_blank">
       <img className="icon"src="/static/icon-facebook@2x.png" alt="Gedankenwerk auf Facebook" />
     </a>
