@@ -6,7 +6,7 @@ export default ({ children }) => (
     <style jsx>{`
       .social-nav {
         position: absolute;
-        right: 55px;
+        right: 35px;
       }
       @media screen and (min-width: 420px) {
         .social-nav { right: 40px; }
