@@ -6,7 +6,7 @@ export default ({ children }) => (
     <style jsx>{`
       .social-nav {
         position: absolute;
-        right: 10px;
+        right: 55px;
       }
       @media screen and (min-width: 420px) {
         .social-nav { right: 40px; }
@@ -22,21 +22,29 @@ export default ({ children }) => (
         background-image: url("../static/icon-phone.svg");
         background-position: 0 1px;
         background-repeat: no-repeat;
-        background-size: 24px;
+        background-size: 16px;
         bottom: 5px;
         color: white;
         display: inline-block;
         font-family: 'Archivo Narrow',sans-serif;
-        font-size: 20px;
+        font-size: 14px;
         font-weight: light;
         height: 30px;
-        margin: 0 15px 0 0;
-        padding: 0 0 0 26px;
+        margin: 0 6px 0 0;
+        padding: 0 0 0 18px;
         position: relative;
         text-decoration: none;
       }
       .navbar_phonenumber:hover {
         opacity: 0.8;
+      }
+      @media screen and (min-width: 580px) {
+        .navbar_phonenumber {
+          background-size: 24px;
+          font-size: 20px;
+          padding: 0 0 0 26px;
+          margin: 0 15px 0 0;
+        }
       }
       .icon {
         height: 24px;
