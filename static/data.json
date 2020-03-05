@@ -2,6 +2,13 @@
   "projects": [
     {
       "type": "video",
+      "url": "https://vimeo.com/393418798/83159537ca",
+      "img": "/static/project-vonovia-app.jpg",
+      "size": "4",
+      "title": "Mein Vonovia:<br/>die Kunden-App von Vonovia (Lange Fassung)"
+    },
+    {
+      "type": "video",
       "url": "https://youtu.be/k5MgoRzFPSI",
       "img": "/static/project-p-und-c-ttt19.jpg",
       "size": "4",
