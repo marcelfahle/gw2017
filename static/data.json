@@ -2,7 +2,7 @@
   "projects": [
     {
       "type": "video",
-      "url": "https://vimeo.com/393418798/83159537ca",
+      "url": "https://vimeo.com/393418798",
       "img": "/static/project-vonovia-app.jpg",
       "size": "4",
       "title": "Mein Vonovia:<br/>die Kunden-App von Vonovia (Lange Fassung)"
@@ -271,7 +271,7 @@
       "url": "https://vimeo.com/246472349",
       "img": "/static/project-haut.png",
       "size": "2",
-      "title": "Corporate Video<br/>Hautästheten"
+      "title": "Corporate Video<br/>Hautästheten"
     },
     {
       "type": "url",
