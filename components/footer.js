@@ -66,8 +66,8 @@ export default () => (
 
     <p>
       <Link href="mailto:info@gedankenwerk.com">info@gedankenwerk.com</Link><br/>
-      Tel. 0201 630 191 - 33<br/>
-      Fax 0201 630 191 - 88<br/>
+      Tel. 0201 630191-33<br/>
+      Fax 0201 630191-88<br/>
     </p>
 
     <p>

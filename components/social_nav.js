@@ -121,7 +121,7 @@ export default ({ children }) => (
 
     <a className="navbar_email" href='mailto:info@gedankenwerk.com'></a>
     <div className="navbar_divider"></div>
-    <a className="navbar_phonenumber" href='tel:+4920163019133'>0201 630 191 - 33</a>
+    <a className="navbar_phonenumber" href='tel:+4920163019133'>0201 630191-33</a>
     <a rel="noopener" href='https://www.facebook.com/gedankenwerk' target="_blank">
       <img className="icon"src="/static/icon-facebook@2x.png" alt="Gedankenwerk auf Facebook" />
     </a>

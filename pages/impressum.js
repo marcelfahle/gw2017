@@ -19,7 +19,7 @@ export default pageWithIntl (() => (
       </p>
 
       <p>
-        Tel. 0201 630 191 - 33<br/> 
+        Tel. 0201 630191-33<br/> 
         Fax 0201 630 191 – 88
       </p>
 
