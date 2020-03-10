@@ -223,11 +223,16 @@ class Layout extends React.Component {
         </Head>
         <header>
           <h1 className="page-title">
-            <a rel="noopener" href="/">
+            <a className="logo-wrapper" rel="noopener" href="/">
               <img
                 className="logo"
                 src="/static/logo-gw.svg"
-                alt="GEDANKENWERK. Web & Videoproduktion"
+                alt="GEDANKENWERK"
+              />
+              <img
+                className="web-videoproduction"
+                src="/static/logo-web-videoproduktion.svg"
+                alt="Web & Videoproduktion"
               />
             </a>
           </h1>
@@ -246,47 +251,45 @@ class Layout extends React.Component {
             //background: #fff;
             color: #b2b2b2;
             font-family: 'Archivo Narrow', sans-serif;
-            overflow-x: hidden;
           }
           header {
             background: #141414;
-            position: absolute;
-            padding: 0 10px;
+            position: fixed;
             left: 0;
             right: 0;
-            height: 120px;
             border-bottom: 5px solid #51ed06;
             z-index: 21;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            flex-direction: row;
+            flex-wrap: wrap;
+            padding: 10px 39px 10px;
           }
-          @media screen and (min-width: 420px) {
+          @media screen and (max-width: 527px) {
             header {
-              padding: 0 40px;
-            }
-          }
-          @media screen and (min-width: 1020px) {
-            header {
-              height: 120px;
-          }
-          @media screen and (min-width: 1120px) {
-            header {
-              height: 85px;
+              position: -webkit-sticky;
+              position: sticky;
+              top: -90px;
             }
           }
           .page-title {
-            margin: 0;
+            margin: 20px 60px 20px 0;
             padding: 0;
           }
+          .logo-wrapper {
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+          }
           .logo {
-            max-width: 482px;
-            width: 100%;
-            padding-top: 20px;
-            padding-bottom: 10px;
+            width: 260px;
+            margin-right: 11px;
+          }
+          .web-videoproduction {
+            width: 212px;
           }
           @media screen and (min-width: 1020px) {
-            .logo {
-              padding-top: 30px;
-            }
-          }
           .content {
             padding: 10px;
           }
