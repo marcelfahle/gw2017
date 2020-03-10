@@ -12,6 +12,7 @@ import Offer from '../components/offer';
 
 const PageHeader = styled.div`
   text-align: center;
+  margin-top: 180px;
   margin-bottom: 3rem;
 `;
 const PageTitle = styled.h1`
