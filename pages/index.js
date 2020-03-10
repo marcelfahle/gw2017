@@ -193,7 +193,7 @@ class Index extends React.Component {
           <Intro>
             <FormattedHTMLMessage
               id="page_intro"
-              defaultMessage="Wir lieben das Web. Und wir entwickeln für unsere Kunden, was das Web liebt: innovative Websites, professionelle Videos und ausgereiften Content für die Sozialen Medien. Das tun wir bei Gedankenwerk seit über 15 Jahren für große und kleine Unternehmen – und mit den passenden Spezialisten für jede Herausforderung. Sprechen Sie uns einfach an. Denn mit uns kann man reden."
+              defaultMessage="Wir lieben das Web. Und wir entwickeln für unsere Kunden, was das Web liebt: innovative Websites, professionelle Videos und ausgereiften Content für die Sozialen Medien. Das tun wir bei Gedankenwerk seit über 15 Jahren für große und kleine Unternehmen – und mit den passenden Spezialisten für jede Herausforderung."
             />
           </Intro>
         </PageHeader>
@@ -209,7 +209,7 @@ class Index extends React.Component {
           <Intro>
             <FormattedHTMLMessage
               id="page_intro2"
-              defaultMessage="<strong>Online-Konzepte, Webseiten, Filme und Social-Media. Alles aus einer Hand.</strong><br>Für die Wahrnehmung und die Wiedererkennbarkeit ist es wichtig, dass alles aus einem Guss ist. Das ist keine neue Erkenntnis. Gedankenwerk erstellt alles Digitale in einem Look. Vom Konzept der Webseite und deren Erstellung, die Produktion eines Image-, Marken- oder Produktfilmes zum Einsatz auf dieser Webseite bis hin zum Content für Ihre Social-Media Kanäle – kurz: Eine Handschrift.<br><br>Dabei steckt Leidenschaft in jeder einzelnen Disziplin, die wir ohne das Gesamtpaket anbieten, wobei wir das große Ganze niemals aus den Augen verlieren."
+              defaultMessage="<strong>Online-Konzepte, Webseiten, Filme und Social-Media. Alles aus einer Hand.</strong><br>Für die Wahrnehmung und die Wiedererkennbarkeit ist es wichtig, dass alles aus einem Guss ist. Das ist keine neue Erkenntnis. Gedankenwerk erstellt alles Digitale in einem Look. Vom Konzept der Webseite und deren Erstellung, die Produktion eines Image-, Marken- oder Produktfilmes zum Einsatz auf dieser Webseite bis hin zum Content für Ihre Social-Media Kanäle – kurz: Eine Handschrift."
             />
           </Intro>
           <Handschrift>

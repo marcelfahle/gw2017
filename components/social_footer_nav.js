@@ -29,11 +29,11 @@ export default() => (
     <a rel="noopener" href='https://vimeo.com/gedankenwerk' target="_blank">
       <Icon src="/static/monoicon-vimeo@2x.png" alt="Gedankenwerk auf Vimeo" />
     </a>
-    <a rel="noopener" href='https://www.youtube.com/channel/UCIt6mou8e8jgyA5-z2konww' target="_blank">
-      <Icon src="/static/monoicon-gadgetstage@2x.png" alt="Gadget Stage YouTube Channel" />
-    </a>
     <a rel="noopener" href='https://www.youtube.com/channel/UCkYe1j5dm2LkG9Pdvnm4VEQ' target="_blank">
       <Icon src="/static/monoicon-youtube@2x.png" alt="Gedankenwerk auf YouTube" />
+    </a>
+    <a rel="noopener" href='https://www.youtube.com/channel/UCIt6mou8e8jgyA5-z2konww' target="_blank">
+      <Icon src="/static/monoicon-gadgetstage@2x.png" alt="Gadget Stage YouTube Channel" />
     </a>
   </nav>
 )
