@@ -83,257 +83,11 @@ const Intro = styled.p`
 const Green = styled.span`
   color: #51ed06;
 `;
-const Contact = styled.p`
-  margin-top: 100px;
-  margin-bottom: 100px;
-  width: 100%;
-  h3 {
-    font-family: 'Archivo Narrow',sans-serif;
-    font-weight: 800;
-    font-size: 54px;
-    text-transform: uppercase;
-    color: #fff;
-    line-height: 58.5px;
-    margin: 0;
-    span {
-      color: #51ed06;
-    }
-  }
-  p {
-    font-family: 'Archivo Narrow',sans-serif
-    color: #b2b2b2;
-    font-size: 20px;
-    line-height: 26px;
-    text-size-adjust: 100%;
-    margin-bottom: 60px;
-  }
-  a {
-    font-family: 'Archivo Narrow',sans-serif;
-    font-weight: 800;
-    font-size: 22.8px;
-    color: #fff;
-    line-height: 49.4px;
-    background-color: #51ed06;
-    text-decoration: none;
-    text-transform: uppercase;
-    text-align: center;
-    padding: 13px 23px 11px;
-  }
-
-  .contact-grid {
-    display: -ms-grid;
-    display: grid;
-    grid-auto-columns: 1fr;
-    -ms-grid-columns: 1fr 1fr;
-    grid-template-columns: 1fr 1fr;
-    -ms-grid-rows: 1fr 1fr;
-    grid-template-rows: 1fr 1fr;
-    grid-row-gap: 16px;
-    grid-column-gap: 16px;
-    height: 908px;
-    grid-column-gap: 6px;
-    grid-row-gap: 6px;
-    -ms-grid-columns: 1fr 1fr 1fr 1fr;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    -ms-grid-rows: 1fr 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr 1fr;
-  }
-
-  .contact-block-1 {
-    background-color: #0F0F0F;
-    border-left: 10px solid #51ed06;
-    padding: 87px 46px;
-  }
-
-  .contact-block-2 {
-    background-image: url('/static/contact-grid-1.jpg');
-    background-position: 50% 0%;
-    background-size: cover;
-  }
-
-  .contact-block-3 {
-    background-image: url('/static/contact-grid-2.jpg');
-    background-position: 50% 0%;
-    background-size: cover;
-  }
-
-  .contact-block-4 {
-    background-image: url('/static/contact-grid-3.jpg');
-    background-position: 50% 50%;
-    background-size: cover;
-  }
-
-  .contact-block-5 {
-    background-image: url('/static/contact-grid-4.jpg');
-    background-position: 0% 0%;
-    background-size: cover;
-  }
-
-  .contact-block-6 {
-    background-image: url('/static/contact-grid-5.jpg');
-    background-position: 0px 0px;
-    background-size: cover;
-  }
-
-  .contact-block-7 {
-    background-image: url('/static/contact-grid-6.jpg');
-    background-position: 100% 50%;
-    background-size: cover;
-  }
-
-  @media screen and (max-width: 1337px) {
-    .contact-block-1 {
-      padding: 42px 46px;
-    }
-    p {
-      margin-bottom: 40px;
-    }
-  }
-
-  @media screen and (max-width: 1030px) {
-    .contact-grid {
-      -ms-grid-columns: 1fr 1fr 1fr;
-      grid-template-columns: 1fr 1fr 1fr;
-    }
-    .contact-block-6 {
-      background-position: 50% 50%;
-    }
-    .contact-block-7 {
-      display: none;
-    }
-    h3 {
-      font-size: 50px;
-    }
-    p {
-      margin-bottom: 40px;
-    }
-  }
-
-  @media screen and (max-width: 760px) {
-    .contact-grid {
-      height: 800px;
-      -ms-grid-columns: 1fr 1fr;
-      grid-template-columns: 1fr 1fr;
-    }
-    .contact-block-1 {
-      padding-top: 70px;
-    }
-    .contact-block-3 {
-      display: none;
-    }
-    .contact-block-4 {
-      display: none;
-    }
-    .contact-block-5 {
-      display: none;
-    }
-    .contact-block-6 {
-      display: none;
-    }
-  }
-
-  @media screen and (max-width: 587px) {
-    .contact-block-1 {
-      padding-top: 40px;
-    }
-    h3 {
-      font-size: 40px;
-      line-height: 40px;
-    }
-  }
-
-  @media screen and (max-width: 463px) {
-    .contact-grid {
-      height: 852px;
-    }
-  }
-
-  @media screen and (max-width: 424px) {
-    a span {
-      display: none;
-    }
-  }
-
-  @media screen and (max-width: 376px) {
-    .contact-grid {
-      height: 884px;
-    }
-  }
-
-  @media screen and (max-width: 342px) {
-    .contact-grid {
-      height: 935px;
-    }
-    .contact-block-1 {
-      padding: 20px;
-    }
-  }
-
-  #contact-block-1 {
-    -ms-grid-row: span 2;
-    grid-row-start: span 2;
-    -ms-grid-row-span: 2;
-    grid-row-end: span 2;
-    -ms-grid-column: span 2;
-    grid-column-start: span 2;
-    -ms-grid-column-span: 2;
-    grid-column-end: span 2;
-  }
-
-  #contact-block-7 {
-    -ms-grid-row: span 3;
-    grid-row-start: span 3;
-    -ms-grid-row-span: 3;
-    grid-row-end: span 3;
-    -ms-grid-column: span 1;
-    grid-column-start: span 1;
-    -ms-grid-column-span: 1;
-    grid-column-end: span 1;
-  }
-
-  #contact-block-2 {
-    -ms-grid-row: span 2;
-    grid-row-start: span 2;
-    -ms-grid-row-span: 2;
-    grid-row-end: span 2;
-    -ms-grid-column: span 2;
-    grid-column-start: span 2;
-    -ms-grid-column-span: 2;
-    grid-column-end: span 2;
-  }
-
-  #contact-block-6 {
-    -ms-grid-row: span 1;
-    grid-row-start: span 1;
-    -ms-grid-row-span: 1;
-    grid-row-end: span 1;
-    -ms-grid-column: span 2;
-    grid-column-start: span 2;
-    -ms-grid-column-span: 2;
-    grid-column-end: span 2;
-  }
-
-  @media screen and (max-width: 1030px) {
-    #contact-block-2 {
-      -ms-grid-row: span 2;
-      grid-row-start: span 2;
-      -ms-grid-row-span: 2;
-      grid-row-end: span 2;
-      -ms-grid-column: span 2;
-      grid-column-start: span 2;
-      -ms-grid-column-span: 2;
-      grid-column-end: span 2;
-    }
-    #contact-block-6 {
-      -ms-grid-row: span 1;
-      grid-row-start: span 1;
-      -ms-grid-row-span: 1;
-      grid-row-end: span 1;
-      -ms-grid-column: span 1;
-      grid-column-start: span 1;
-      -ms-grid-column-span: 1;
-      grid-column-end: span 1;
-    }
+const Handschrift = styled.p`
+  margin-bottom: -40px;
+  img {
+    width: 100%;
+    max-width: 600px;
   }
 `;
 
@@ -357,8 +111,8 @@ const Stripes2 = styled.div`
   height: 54px;
   background: transparent url('/static/stripes2xl.svg') no-repeat;
   width: calc(100vw);
-  margin-left: 0;
-  @media screen and (min-width: 1020px) {
+  margin-left: -10px;
+  @media screen and (min-width: 480px) {
     margin-left: -40px;
     width: calc(100vw);
   }
@@ -458,27 +212,13 @@ class Index extends React.Component {
               defaultMessage="<strong>Online-Konzepte, Webseiten, Filme und Social-Media. Alles aus einer Hand.</strong><br>Für die Wahrnehmung und die Wiedererkennbarkeit ist es wichtig, dass alles aus einem Guss ist. Das ist keine neue Erkenntnis. Gedankenwerk erstellt alles Digitale in einem Look. Vom Konzept der Webseite und deren Erstellung, die Produktion eines Image-, Marken- oder Produktfilmes zum Einsatz auf dieser Webseite bis hin zum Content für Ihre Social-Media Kanäle – kurz: Eine Handschrift."
             />
           </Intro>
+          <Handschrift>
+            <br />
+            <img src="/static/Handschrift_2@2x.png" />
+          </Handschrift>
         </PageHeader>
 
         <Stripes2 />
-
-          <Contact>
-          <div className="contact-grid">
-              <div id="contact-block-1" className="contact-block-1">
-                <h3>Sprechen Sie&nbsp;uns&nbsp;an<span>.</span></h3>
-                <p>Mit uns kann man reden — wenn wir Ihr Interesse geweckt haben, stellen Sie doch einfach eine Anfrage bei uns. Wir nehmen uns gern die Zeit Ihr Anliegen mit Ihnen zu besprechen.</p>
-                <a href="mailto:info@gedankenwerk.com"><span>Jetzt </span>Kontakt<span> aufnehmen</span></a>
-              </div>
-              <div className="contact-block-3"></div>
-              <div id="contact-block-7" className="contact-block-7"></div>
-              <div className="contact-block-4"></div>
-              <div id="contact-block-2" className="contact-block-2"></div>
-              <div className="contact-block-5"></div>
-              <div id="contact-block-6" className="contact-block-6"></div>
-          </div>
-          </Contact>
-
-          <Stripes2 />
 
         <PageHeader>
           <PageTitle>

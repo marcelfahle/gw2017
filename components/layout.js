@@ -73,9 +73,6 @@ const VideoHeader = styled.div`
   background-size: cover;
   background-position: center;
   position: relative;
-  @media screen and (max-width: 528px) {
-    height: calc(100vh - 97px);
-  }
 `;
 const VideoBlocker = styled.div`
   height: 100%;
@@ -91,7 +88,6 @@ const Video = styled.video`
   min-height: 100%;
   overflow: hidden;
 `;
-
 
 class Layout extends React.Component {
   componentDidMount() {
@@ -261,7 +257,6 @@ class Layout extends React.Component {
             position: fixed;
             left: 0;
             right: 0;
-            top: 0;
             border-bottom: 5px solid #51ed06;
             z-index: 21;
             display: flex;
@@ -270,9 +265,6 @@ class Layout extends React.Component {
             flex-direction: row;
             flex-wrap: wrap;
             padding: 10px 39px 10px;
-          }
-          .content {
-            overflow: hidden;
           }
           .page-title {
             margin: 20px 60px 20px 0;

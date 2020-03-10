@@ -232,7 +232,6 @@ class Layout extends React.Component {
             position: fixed;
             left: 0;
             right: 0;
-            top: 0;
             border-bottom: 5px solid #51ed06;
             z-index: 21;
             display: flex;
@@ -241,9 +240,6 @@ class Layout extends React.Component {
             flex-direction: row;
             flex-wrap: wrap;
             padding: 10px 39px 10px;
-          }
-          .content {
-            overflow: hidden;
           }
           .page-title {
             margin: 20px 60px 20px 0;
@@ -266,25 +262,26 @@ class Layout extends React.Component {
               position: -webkit-sticky;
               position: sticky;
               top: -73px;
-              padding: 0 0 0 11px;
+              padding: 0 0 0 0;
             }
             .page-title {
               margin: 14px 0 12px;
             }
-            .logo-wrapper {
-              transform: scale(0.9);
-              transform-origin: 0 0;
-            }
           }
           @media screen and (min-width: 1020px) {
+            .logo {
+              padding-top: 30px;
+            }
+          }
             .content {
+              margin-top: 150px;
               padding: 10px;
             }
-            @media screen and (min-width: 480px) {
-              .content {
-                padding: 40px;
-                padding-top: 0;
-              }
+          @media screen and (min-width: 480px) {
+            .content {
+              padding: 40px;
+              padding-top: 0;
+            }
           }
         `}</style>
 

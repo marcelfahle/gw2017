@@ -6,7 +6,6 @@ export default pageWithIntl (() => (
   <Layout>
 
     <div className="text-only">
-      <br/><br/><br/><br/><br/><br/>
       <h3>Impressum<Green>.</Green></h3>
 
 
