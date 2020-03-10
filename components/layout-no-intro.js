@@ -239,10 +239,10 @@ class Layout extends React.Component {
             justify-content: space-between;
             flex-direction: row;
             flex-wrap: wrap;
-            padding: 21px 39px 21px;
+            padding: 10px 39px 10px;
           }
           .page-title {
-            margin: 0;
+            margin: 20px 60px 20px 0;
             padding: 0;
           }
           .logo-wrapper {
@@ -256,6 +256,17 @@ class Layout extends React.Component {
           }
           .web-videoproduction {
             width: 212px;
+          }
+          @media screen and (max-width: 528px) {
+            header {
+              position: -webkit-sticky;
+              position: sticky;
+              top: -73px;
+              padding: 0 0 0 0;
+            }
+            .page-title {
+              margin: 14px 0 12px;
+            }
           }
           @media screen and (min-width: 1020px) {
             .logo {

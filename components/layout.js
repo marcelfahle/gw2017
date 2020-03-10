@@ -266,13 +266,6 @@ class Layout extends React.Component {
             flex-wrap: wrap;
             padding: 10px 39px 10px;
           }
-          @media screen and (max-width: 527px) {
-            header {
-              position: -webkit-sticky;
-              position: sticky;
-              top: -90px;
-            }
-          }
           .page-title {
             margin: 20px 60px 20px 0;
             padding: 0;
@@ -288,6 +281,21 @@ class Layout extends React.Component {
           }
           .web-videoproduction {
             width: 212px;
+          }
+          @media screen and (max-width: 528px) {
+            header {
+              position: -webkit-sticky;
+              position: sticky;
+              top: -73px;
+              padding: 0 0 0 11px;
+            }
+            .page-title {
+              margin: 14px 0 12px;
+            }
+            .logo-wrapper {
+              transform: scale(0.9);
+              transform-origin: 0 0;
+            }
           }
           @media screen and (min-width: 1020px) {
           .content {
