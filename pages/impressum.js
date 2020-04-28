@@ -6,12 +6,13 @@ export default pageWithIntl (() => (
   <Layout>
 
     <div className="text-only">
+      <br/><br/><br/><br/><br/><br/>
       <h3>Impressum<Green>.</Green></h3>
 
 
       <p>
         <strong>
-          Gedankenwerk - Agentur für neue Medien 
+          Gedankenwerk - Agentur für neue Medien
         </strong><br/>
         Sascha Panter und Yvonne Schweiger GbR <br/>
         Gentweg 10 <br/>
@@ -19,7 +20,7 @@ export default pageWithIntl (() => (
       </p>
 
       <p>
-        Tel. 0201 630191-33<br/> 
+        Tel. 0201 630191-33<br/>
         Fax 0201 630 191 – 88
       </p>
 
@@ -41,7 +42,7 @@ export default pageWithIntl (() => (
 
       <p>
         Warenzeichen: <br/>
-        Gedankenwerk ist eine beim deutschen Patent- und Markenamt in München 
+        Gedankenwerk ist eine beim deutschen Patent- und Markenamt in München
         eingetragene Marke (Registernummer/Aktenzeichen: 300 47 470.9/38).
       </p>
 
@@ -57,12 +58,12 @@ export default pageWithIntl (() => (
       </p>
 
       <p>
-        Alle aufgeführten Firmen-, Marken- und Produktnamen können 
+        Alle aufgeführten Firmen-, Marken- und Produktnamen können
         eingetragene Warenzeichen ihrer jeweiligen Hersteller sein.
       </p>
 
       <p>
-        Haftungsausschluss: 
+        Haftungsausschluss:
       </p>
 
       <p>
@@ -72,7 +73,7 @@ export default pageWithIntl (() => (
 
       <p>
         Haftung für Links <br/>
-        Unser Angebot enthält Links zu externen Webseiten Dritter, auf deren Inhalte wir keinen Einfluss haben. Deshalb können wir für diese fremden Inhalte auch keine Gewähr übernehmen. Für die Inhalte der verlinkten Seiten ist stets der jeweilige Anbieter oder Betreiber der Seiten verantwortlich. Die verlinkten Seiten wurden zum Zeitpunkt der Verlinkung auf mögliche Rechtsverstöße überprüft. Rechtswidrige Inhalte waren zum Zeitpunkt der Verlinkung nicht erkennbar. Eine permanente inhaltliche Kontrolle der verlinkten Seiten ist jedoch ohne konkrete Anhaltspunkte einer Rechtsverletzung nicht zumutbar. Bei Bekanntwerden von Rechtsverletzungen werden wir derartige Links umgehend entfernen. 
+        Unser Angebot enthält Links zu externen Webseiten Dritter, auf deren Inhalte wir keinen Einfluss haben. Deshalb können wir für diese fremden Inhalte auch keine Gewähr übernehmen. Für die Inhalte der verlinkten Seiten ist stets der jeweilige Anbieter oder Betreiber der Seiten verantwortlich. Die verlinkten Seiten wurden zum Zeitpunkt der Verlinkung auf mögliche Rechtsverstöße überprüft. Rechtswidrige Inhalte waren zum Zeitpunkt der Verlinkung nicht erkennbar. Eine permanente inhaltliche Kontrolle der verlinkten Seiten ist jedoch ohne konkrete Anhaltspunkte einer Rechtsverletzung nicht zumutbar. Bei Bekanntwerden von Rechtsverletzungen werden wir derartige Links umgehend entfernen.
       </p>
 
       <p>
@@ -80,7 +81,7 @@ export default pageWithIntl (() => (
         Die durch die Seitenbetreiber erstellten Inhalte und Werke auf diesen Seiten unterliegen dem deutschen Urheberrecht. Die Vervielfältigung, Bearbeitung, Verbreitung und jede Art der Verwertung außerhalb der Grenzen des Urheberrechtes bedürfen der schriftlichen Zustimmung des jeweiligen Autors bzw. Erstellers. Downloads und Kopien dieser Seite sind nur für den privaten, nicht kommerziellen Gebrauch gestattet. Soweit die Inhalte auf dieser Seite nicht vom Betreiber erstellt wurden, werden die Urheberrechte Dritter beachtet. Insbesondere werden Inhalte Dritter als solche gekennzeichnet. Sollten Sie trotzdem auf eine Urheberrechtsverletzung aufmerksam werden, bitten wir um einen entsprechenden Hinweis. Bei Bekanntwerden von Rechtsverletzungen werden wir derartige Inhalte umgehend entfernen. 
       </p>
 
-     
+
 
 
       <h2>Datenschutzerklärung</h2><h3 id="dsg-general-intro"></h3><p>Diese Datenschutzerklärung klärt Sie über die Art, den Umfang und Zweck der Verarbeitung von personenbezogenen Daten (nachfolgend kurz „Daten“) innerhalb unseres Onlineangebotes und der mit ihm verbundenen Webseiten, Funktionen und Inhalte sowie externen Onlinepräsenzen, wie z.B. unser Social Media Profile auf (nachfolgend gemeinsam bezeichnet als „Onlineangebot“). Im Hinblick auf die verwendeten Begrifflichkeiten, wie z.B. „Verarbeitung“ oder „Verantwortlicher“ verweisen wir auf die Definitionen im Art. 4 der Datenschutzgrundverordnung (DSGVO).<br/>
