@@ -2,6 +2,13 @@
   "projects": [
     {
       "type": "video",
+      "url": "https://vimeo.com/419938818",
+      "img": "/static/project-vonovia-danke-dass-sie-uns-vertrauen.jpg",
+      "size": "4",
+      "title": "Vonovia<br/>Danke, dass Sie uns vertrauen (Kinospot)"
+    },
+    {
+      "type": "video",
       "url": "https://vimeo.com/397380879",
       "img": "/static/project-ume-herzklinik.jpg",
       "size": "4",
